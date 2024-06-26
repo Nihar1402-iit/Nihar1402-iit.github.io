@@ -13,16 +13,16 @@ About Me:
 -----
 I am currently a sophomore at one of the most prestigious technological institutes, **Indian Institute of Technology Gandhinagar**, majoring in Electrical Engineering.
 
--	I am currently mastering my skills in  Machine Learning to solve real-life problems. I like CODING.
+-	I am currently mastering my skills in  Machine Learning to solve real-life problems. I like Mathematics.
 - I am also exploring fields of Data Science, Digital Signal Processing and Hardware Implementation within Computer Architecture.
 -	Fun fact: I love delving into various domains of Computer Science, but I am too lazy to find a balance between them.
 <hr>
 
 Recent News:
 -----
-**27th May 2024** : I started my Internship at [Corover](https://corover.ai/) security solutions as an AI-ML developer. [Know more](https://aditya-me13.github.io/interns/).
+**27th May 2024** : I started my Internship at [Corover](https://corover.ai/)  as an AI-ML developer. [Know more](https://Nihar1402-iit.github.io/Interns/).
 
-**24th April 2024** : Our team successfully completed the Project on Image Processing Toolbox on FPGA. [Know more](https://aditya-me13.github.io/Projects/IPT).
+**24th April 2024** : Our team successfully completed the Project on Image Processing Toolbox on FPGA. [Know more](https://Nihar1402-iit.github.io/Projects/IPT).
 
 **2nd April 2024** : I was awarded with **Prof. G. V. Rao Scholarship** for excellent academic performance and exemplary potential.
 
@@ -50,23 +50,10 @@ My Background:
   
 <hr>
 
-Hobbies and Interests:
-------
-
-- Apart from passion for engineering, I like music, food, **garba** and travelling. But my absolute favorite pastime? Without a doubt, it's hibernating. They say you need more sleep to complete your Big Dreams.
-- When it comes to entertainment, I'm an huge fan of the "**Wizarding-World**", "**Marvel-Cinematic-Universe**" and "**FRIENDS**". They never fail to ignite my imagination and keep me thoroughly entertained.
-- Bollywood movies and songs are inseperable part of my life. If you're someone who gets jumps aloud when I shout "Pani," then we're definitely on the same wavelength!
-- A figure who has truly inspired me is **Mr. Dilip Joshi**, fondly known as **Jethalal**. His portrayal always manages to bring a smile to my face, even during the toughest of times. Hopefully I will get the previlage to shake hands with him some day. No Doubt, I like "Tarak Mehta ka Oolta Chashma" more than anything else.
-- I find immense joy in activities like **Video Editing** and **Graphic Designing**—they're more than just hobbies to me; they're a form of artistic expression.
-- While I prefer to keep my life organized and clean, there's something comforting about the chaos of a messy cupboard and messy hair. I confess, I have quite the sweet tooth—I simply can't resist ice-creams!!
-- Like most Indians, cricket holds a special place in my heart, but I also enjoy lawn tennis and badminton for some recreational fun.
-- I have a deep appreciation for the beauty of Hindi and Urdu poetry, the soulful lyrics of Gujarati folk music, and the wisdom found in English quotes and phrases.
-
-<hr>
 
 For even more info:
 ------
 Reach out to me :)
 <hr>
 
-<h3><center> "There is no treasure worth as much as the Good that can be done with it" </center></h3>
+<h3><center> "Success is not final, failure is not fatal, It's the ability" </center></h3>
