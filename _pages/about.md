@@ -1,50 +1,72 @@
 ---
 permalink: /
-title: "Hello there, I'm Nihar!"
-excerpt: "About me"
+title: "Hello! I am Nihar Shah."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+<!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+About Me:
+-----
+I am currently a sophomore at one of the most prestigious technological institutes, **Indian Institute of Technology Gandhinagar**, majoring in Electrical Engineering.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+-	I am currently mastering my skills in  Machine Learning to solve real-life problems. I like CODING.
+- I am also exploring fields of Data Science, Digital Signal Processing and Hardware Implementation within Computer Architecture.
+-	Fun fact: I love delving into various domains of Computer Science, but I am too lazy to find a balance between them.
+<hr>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Recent News:
+-----
+**27th May 2024** : I started my Internship at [Kapidhwaj AI](https://www.kapidhwaj.ai/) security solutions as an AI-ML developer. [Know more](https://aditya-me13.github.io/interns/).
 
-Site-wide configuration
+**24th April 2024** : Our team successfully completed the Project on Image Processing Toolbox on FPGA. [Know more](https://aditya-me13.github.io/Projects/IPT).
+
+**2nd April 2024** : I was awarded with **Prof. G. V. Rao Scholarship** for excellent academic performance and exemplary potential.
+
+**18th March 2024** : Our team of 100+ members successfully conducted **Gujarat's largest student-run cultural fest**.
+<hr>
+
+Education:
+-----
+
+| Degree | Specialization | Institute | Year | CPI/% |
+| --- | --- | --- | --- | --- | 
+| B.Tech. | _Electrical Engineering_| IIT Gandhinagar| 2022-Present| 8.59/10| 
+| Class XII  | _Physics, Chemistry, Maths_| Prakash College| 2021-2022 | 87.17 %| 
+| Class X | | Ryan International School, Mumbai | 2019-2020| 97.6 %| 
+
+<hr>
+
+My Background:
+-------
+
+- Born and raised in **Mandvi**, Gujarat, I spent the first 15 years of my life there with my parents, younger sister, grandmother, and late grandfather. I am a **Jain** by religion, **Gujju** by blood, and **Indian** by heart.
+-  With good results in 10th grade, like any typical brown family kid, I was encouraged to pursue “**ENGINEERING**”. At 16, after completing 10th grade, I moved to **Adipur**, Gujarat for my Intermediate Educaton while preparing for the JEE Mains exam.
+- The COVID-19 pandemic led to early completion of GSEB 12th board exams and a delay in JEE Mains and Advanced. I made the most of this time by heading to the most “famous” place for IIT-JEE preparation—**KOTA**. This was a 4-month crash course at “**ATP-Star**”. Luckily, it was the right decision, and I got selected for IIT.
+- I’ve always been blessed with luck and unwavering support. Many people have invested in my journey, particularly my **Parents**. I will consider myself successful if I can return even 10% of what they have invested in me.
+  
+<hr>
+
+Hobbies and Interests:
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
+- Apart from passion for engineering, I like music, food, **garba** and travelling. But my absolute favorite pastime? Without a doubt, it's hibernating. They say you need more sleep to complete your Big Dreams.
+- When it comes to entertainment, I'm an huge fan of the "**Wizarding-World**", "**Marvel-Cinematic-Universe**" and "**FRIENDS**". They never fail to ignite my imagination and keep me thoroughly entertained.
+- Bollywood movies and songs are inseperable part of my life. If you're someone who gets jumps aloud when I shout "Pani," then we're definitely on the same wavelength!
+- A figure who has truly inspired me is **Mr. Dilip Joshi**, fondly known as **Jethalal**. His portrayal always manages to bring a smile to my face, even during the toughest of times. Hopefully I will get the previlage to shake hands with him some day. No Doubt, I like "Tarak Mehta ka Oolta Chashma" more than anything else.
+- I find immense joy in activities like **Video Editing** and **Graphic Designing**—they're more than just hobbies to me; they're a form of artistic expression.
+- While I prefer to keep my life organized and clean, there's something comforting about the chaos of a messy cupboard and messy hair. I confess, I have quite the sweet tooth—I simply can't resist ice-creams!!
+- Like most Indians, cricket holds a special place in my heart, but I also enjoy lawn tennis and badminton for some recreational fun.
+- I have a deep appreciation for the beauty of Hindi and Urdu poetry, the soulful lyrics of Gujarati folk music, and the wisdom found in English quotes and phrases.
+
+<hr>
+
+For even more info:
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Reach out to me :)
+<hr>
 
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<h3><center> "There is no treasure worth as much as the Good that can be done with it" </center></h3>
