@@ -20,13 +20,9 @@ I am currently a sophomore at one of the most prestigious technological institut
 
 Recent News:
 -----
-**27th May 2024** : I started my Internship at [Corover](https://corover.ai/)  as an AI-ML developer. [Know more](https://Nihar1402-iit.github.io/Interns/).
+**14th May 2024** : I started my Internship at [Corover](https://corover.ai/)  as an AI-ML developer. [Know more](https://Nihar1402-iit.github.io/Interns/).
 
-**24th April 2024** : Our team successfully completed the Project on Image Processing Toolbox on FPGA. [Know more](https://Nihar1402-iit.github.io/Projects/IPT).
 
-**2nd April 2024** : I was awarded with **Prof. G. V. Rao Scholarship** for excellent academic performance and exemplary potential.
-
-**18th March 2024** : Our team of 100+ members successfully conducted **Gujarat's largest student-run cultural fest**.
 <hr>
 
 Education:
