@@ -43,10 +43,8 @@ Education:
 My Background:
 -------
 
-- Born and raised in **Mandvi**, Gujarat, I spent the first 15 years of my life there with my parents, younger sister, grandmother, and late grandfather. I am a **Jain** by religion, **Gujju** by blood, and **Indian** by heart.
--  With good results in 10th grade, like any typical brown family kid, I was encouraged to pursue “**ENGINEERING**”. At 16, after completing 10th grade, I moved to **Adipur**, Gujarat for my Intermediate Educaton while preparing for the JEE Mains exam.
-- The COVID-19 pandemic led to early completion of GSEB 12th board exams and a delay in JEE Mains and Advanced. I made the most of this time by heading to the most “famous” place for IIT-JEE preparation—**KOTA**. This was a 4-month crash course at “**ATP-Star**”. Luckily, it was the right decision, and I got selected for IIT.
-- I’ve always been blessed with luck and unwavering support. Many people have invested in my journey, particularly my **Parents**. I will consider myself successful if I can return even 10% of what they have invested in me.
+- Born and raised in **Ahmedabad**, Gujarat, I spent the first 19 years of my life there with my parents in Mumbai. 
+  
   
 <hr>
 
@@ -56,4 +54,4 @@ For even more info:
 Reach out to me :)
 <hr>
 
-<h3><center> "Success is not final, failure is not fatal, It's the ability" </center></h3>
+<h3><center> "Success is not final, failure is not fatal, It's the courage  to continue that counts" </center></h3>
