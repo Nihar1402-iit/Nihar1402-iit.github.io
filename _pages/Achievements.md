@@ -18,6 +18,12 @@ University Rankings:
   
 Admission Test Rankings:
 ======
+* Secured an All India Rank of **3068** in Joint Entrance Examination (JEE Adv.) conducted by IIT Bombay under the guidance Joint Admission Board(JAC).
+* Secured 99.12 percentile in JEE(Joint Entrance Examination) Mains conducted by National Testing Agency(NTA).
+* Scored 314/390 in BITSAT(Birla Institute of Technology and Science Admission Test) examination .
+* Secured 99.85 percentile in MHTCET(Maharashtra Health and Technical Common Entrance Test) examination .
+* Secured an All India Rank of ______ (171/240) in MET(Manipal Entrance Test) .
+
 
 
 
