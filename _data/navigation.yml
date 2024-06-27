@@ -10,7 +10,7 @@ main:
     # url: /teaching/    
     
   - title: "Internships"
-    url: /Interns/
+    url: /interns/
         
   - title: "Blogs"
     url: /year-archive/
@@ -19,10 +19,10 @@ main:
     url: /files/Nihar_cv.pdf
 
   - title: "Achievements"
-    url: /Achievements/
+    url: /achievements/
     
   - title: "POR"
-    url: /por/
+    url: /pors/
 
   - title: "Contact Me"
     url: /reach
