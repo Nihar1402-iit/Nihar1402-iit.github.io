@@ -10,7 +10,7 @@ author_profile: true
 
 ## Child Safety App
 _Aug, 2023 - Sep, 2023_
-(Advisor – Prof. Nithin.V.George, IIT Gandhinagar) | [Project Link](#)
+(Advisor – Prof. Nithin.V.George, IIT Gandhinagar) | [Project Link](https://github.com/Nihar1402-iit/Child-Safety-App)
 
 - Engineered a mobile app for real-time monitoring of a child’s cycle using GPS, accelerometer, and gyroscope data.
 - Implemented features like over-speed detection, fall detection, and boundary crossing for enhanced safety.
