@@ -22,7 +22,10 @@ main:
     url: /Achievements/
     
   - title: "POR"
-    url: /POR/
+    url: /por/
+
+  - title: "Contact Me"
+    url: /reach
     
   # - title: "Guide"
   #   url: /markdown/
