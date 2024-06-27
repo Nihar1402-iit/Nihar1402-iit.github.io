@@ -13,7 +13,8 @@ redirect_from:
 ## Projects
 
 ### Animal Classification Using Custom CNN Models
-[![Animal Classification Using Custom CNN Models](path_to_image.jpg)](/projects/animal-classification)
+[![Animal Classification Using Custom CNN Models](![image](https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/7b6780c5-8f7d-4d61-b37c-09fa7a417b39)
+)](/projects/animal-classification)
 _(Apr, 2024 - May, 2024)_
 
 ### Text Generator based upon next character prediction from an MLP
