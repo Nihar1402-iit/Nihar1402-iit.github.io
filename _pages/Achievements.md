@@ -14,19 +14,12 @@ redirect_from:
 
 University Rankings:
 ======
-* Awarded [Dean’s List](https://www.iitgn.ac.in/students/deanslist) for Academic Excellence for **All 4 eligible semesters** at IIT Gandhinagar.
-* Ranked 4th among the entire batch (across all branches) at the end of my freshman year.
-* Winner of "Introdunction to Latex" Contest conducted by Student Academic Council, IIT Gandhinagar.
+
   
 Admission Test Rankings:
 ======
-* Secured an All India Rank of **4059** in Joint Entrance Examination (JEE Adv.) conducted by National Testing Agency.
-* Secured All India Rank **468** in IAT for research-based admission in Indian Institute of Science Education and Research (IISERs).
-* Secured an overall State Rank of **49** in ACPC (Admission Committee for Professional Courses) for Academic Year 2021-22.
 
-Schilarships:
-=====
-* Awarded **Prof. G. V. Rao National Scholarship** of Rs. 1 Lakh for excellent Academic Performance and exemplary potential.
+
 
 <!-- Projects:
 ======
