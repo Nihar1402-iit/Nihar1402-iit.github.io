@@ -22,7 +22,7 @@ Admission Test Rankings:
 * Secured 99.12 percentile in JEE(Joint Entrance Examination) Mains conducted by National Testing Agency(NTA).
 * Scored 314/390 in BITSAT(Birla Institute of Technology and Science Admission Test) examination .
 * Secured 99.85 percentile in MHTCET(Maharashtra Health and Technical Common Entrance Test) examination .
-* Secured an All India Rank of ______ (171/240) in MET(Manipal Entrance Test) .
+* Secured an All India Rank of 392 (171/240) in MET(Manipal Entrance Test) .
 
 
 
