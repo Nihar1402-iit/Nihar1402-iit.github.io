@@ -14,16 +14,7 @@ redirect_from:
 [Corover](https://corover.ai/) | Machine Learning and AI Developer Intern
 =====
 ---
-layout: archive
-title: "POSITIONS OF RESPONSIBILITY"
-permalink: /pors/
-author_profile: true
-redirect_from:
-  - /pors
----
 
-{% include base_path %}
------
 
 ## Summer Internship, Corover.ai
 _IIT Gandhinagar, May '24 - Jul '24_
