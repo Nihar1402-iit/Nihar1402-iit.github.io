@@ -29,9 +29,11 @@ Admission Test Rankings:
   
 Skills
 ======
-* __Programming Languages__ : Python, C, C++, Verilog
-* __Libraries__ : NumPy, Pandas, Sklearn, Scipy, Matplotlib, Seaborn, Tensorflow
-* __Other Tools__ : Xilinx Vivado, Git, Autodesk Inventor, Adobe Creative suite, Arduino IDE, Linux, LATEX
+
+* __Programming Languages__ : Python, C, C++, C#, Verilog
+* __Libraries__ : Streamlit, Tensorflow, Scikit-learn, Pytorch, Seaborn, Matplotlib, OpenCV, Numpy, Pandas, Matplotlib, Sci-Py,
+TSFEL.
+* __Other Tools__ : Xilinx Vivado, Android Studio, Git(Basic), TinkerCad, Latex, Unity, Autodesk Fusion360, MATLAB.
 
 <!-- Publications
 ======
