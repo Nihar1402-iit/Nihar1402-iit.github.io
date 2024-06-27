@@ -18,7 +18,7 @@ redirect_from:
 _(Apr, 2024 - May, 2024)_
 
 ### Text Generator based upon next character prediction from an MLP
-[![Text Generator](path_to_image.jpg)](/projects/text-generator)
+[![Text Generator](images/Text_gen.png)](/projects/text-generator)
 _(Feb, 2024 - Mar, 2024)_
 
 ### Binary Image Classification Using VGG Architecture
