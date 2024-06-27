@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Nihar Shah"
+title                    : "Nihar's Homepage"
 title_separator          : "-"
 name                     : &name "Nihar Shah"
 description              : &description "ML enthusiast"
