@@ -13,7 +13,7 @@ redirect_from:
 ## Senior Executive, Events and Events Management, Amalthea’23
 _IIT Gandhinagar, Aug '23 - Oct '23_
 
-![Senior Executive](D:\OneDrive\Pictures\Screenshots\Screenshot (242).png)
+![Senior Executive](Gamejam.png)
 - **Event Lead for GameJam’23**: A global-scale event attracting participants from Malaysia, Italy, Indonesia, and more.
 - **Organized Game Development Workshop**: Attracted 500+ participants from top institutes, promoting game development culture.
 - **Contributed to Events Management**: Ensured smooth logistics, accommodations, and hospitality for a seamless experience.
