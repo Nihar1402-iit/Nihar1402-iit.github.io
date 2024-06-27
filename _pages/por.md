@@ -34,7 +34,7 @@ _IIT Gandhinagar, May '23 - Jul '23_
     <img src="![image](https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/0a07af23-8c28-4a9e-a150-635c21d7c49b)" alt="Team Lead" style="max-width: 200px;">
   </div>
   <div style="flex: 1;">
-    <p><strong>Led a diverse team of 30 individuals</strong>: Optimized their full potential through strategic work allocation and fostering a collaborative and healthy work environment.</p>
+    <p><strong>Led a diverse team of 30 B.Tech undergraduates</strong>: Optimized their full potential through strategic work allocation and fostering a collaborative and healthy work environment.</p>
     <p><strong>Project Planning and Management</strong>: Acquired hands-on experience in project planning, resource allocation, and problem resolution, contributing to a successful outcome in addressing heatstroke prevention.</p>
   </div>
 </div>
