@@ -31,7 +31,7 @@ _IIT Gandhinagar, May '23 - Jul '23_
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1; text-align: left;">
-    <img src="EPCOT2.jpg" alt="Team Lead" style="max-width: 200px;">
+    <img src="[EPCOT2.jpg](https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/blob/master/_pages/EPCOT2.jpg)" alt="Team Lead" style="max-width: 200px;">
   </div>
   <div style="flex: 1;">
     <p><strong>Led a diverse team of 30 individuals</strong>: Optimized their full potential through strategic work allocation and fostering a collaborative and healthy work environment.</p>
