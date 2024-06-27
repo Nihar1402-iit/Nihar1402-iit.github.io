@@ -13,11 +13,8 @@ redirect_from:
 
 [Corover](https://corover.ai/) | Machine Learning and AI Developer Intern
 =====
----
+Industrial Intern | Banglore, Karnataka | _May '24 - Current_
 
-
-## Summer Internship, Corover.ai
-_IIT Gandhinagar, May '24 - Jul '24_
 
 ### Key Responsibilities and Achievements
 
