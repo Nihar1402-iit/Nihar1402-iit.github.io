@@ -10,7 +10,7 @@ author_profile: true
 
 ## Binary Image Classification Using VGG Architecture
 _Mar, 2024 - Apr, 2024_
-(Advisor – Prof. Prof. Nipun Batra, IIT Gandhinagar) | [Project Link](#)
+(Advisor – Prof. Prof. Nipun Batra, IIT Gandhinagar) | [Project Link](https://github.com/Nihar1402-iit/Binary-Image-Classification-Using-VGG-Architecture)
 
 - Implemented VGG1 and VGG3 architectures for Convolutional Neural Networks and tested their performance on the classification of two image classes.
 - Performed Augmentation over the dataset and trained the VGG3 model over this augmented dataset.
