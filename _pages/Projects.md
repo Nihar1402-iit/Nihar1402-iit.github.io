@@ -31,7 +31,32 @@ redirect_from:
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
+.navigation {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.navigation a {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.navigation a:hover {
+  background-color: #0056b3;
+}
+
+.navigation .arrow {
+  font-size: 20px;
+  vertical-align: middle;
+}
 </style>
+
 
 -----
 
@@ -103,4 +128,10 @@ redirect_from:
 </div>
 
 ---
-[Go to Page 2](/Projectspage2/)
+<div class="navigation">
+  <a href="#" class="arrow">&lt; Previous</a>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#" class="arrow">Next &gt;</a>
+</div>
