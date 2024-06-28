@@ -22,7 +22,7 @@ _(Apr, 2024 - May, 2024)_
 _(Feb, 2024 - Mar, 2024)_
 
 ### Binary Image Classification Using VGG Architecture
-[![Binary Image Classification](path_to_image.jpg)](/projects/binary-classification)
+[![Binary Image Classification](https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/blob/master/_pages/VGG.png?raw=true)](/projects/binary-classification)
 _(Mar, 2024 - Apr, 2024)_
 
 ### Modelling Oil spillage - Advection-Diffusion Equation (2-D)
