@@ -42,7 +42,7 @@ _(Aug, 2023 - Sep, 2023)_
 _(Aug, 2023 - Nov, 2023)_
 
 ### Data Narrative of Tennis Major Tournament
-[![Data Narrative](path_to_image.jpg)](/projects/data-narrative)
+[![Data Narrative](https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/blob/master/_pages/DN_final.png?raw=true)](/projects/data-narrative)
 _(Mar, 2023 - May, 2023)_
 
 ### Evaporative Peltier Cooling Tent, for humidity and temperature regulation
