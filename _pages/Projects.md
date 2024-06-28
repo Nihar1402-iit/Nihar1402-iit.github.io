@@ -18,7 +18,7 @@ redirect_from:
 _(Apr, 2024 - May, 2024)_
 
 ### Text Generator based upon next character prediction from an MLP
-[![Text Generator](images/Text_gen.png)](/projects/text-generator)
+[![Text Generator](https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/blob/master/_pages/Text_gen.png?raw=true)](/projects/text-generator)
 _(Feb, 2024 - Mar, 2024)_
 
 ### Binary Image Classification Using VGG Architecture
