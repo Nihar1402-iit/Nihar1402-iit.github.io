@@ -34,7 +34,7 @@ _(Apr, 2023 - Jun, 2023)_
 _(Jan, 2024 - Feb, 2024)_
 
 ### Child Safety App
-[![Child Safety App](path_to_image.jpg)](/projects/child-safety-app)
+[![Child Safety App](https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/blob/master/_pages/Child_safety2.png?raw=true)](/projects/child-safety-app)
 _(Aug, 2023 - Sep, 2023)_
 
 ### Smart Game Engine using C/C++
