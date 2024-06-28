@@ -38,7 +38,7 @@ _(Jan, 2024 - Feb, 2024)_
 _(Aug, 2023 - Sep, 2023)_
 
 ### Smart Game Engine using C/C++
-[![Smart Game Engine](path_to_image.jpg)](/projects/smart-game-engine)
+[![Smart Game Engine](https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/blob/master/_pages/smartgames.png?raw=true)](/projects/smart-game-engine)
 _(Aug, 2023 - Nov, 2023)_
 
 ### Data Narrative of Tennis Major Tournament
