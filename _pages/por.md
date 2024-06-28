@@ -20,7 +20,7 @@ _IIT Gandhinagar, Aug '23 - Oct '23_
     <p><strong>Contributed to Events Management</strong>: Ensured smooth logistics, accommodations, and hospitality for a seamless experience.</p>
   </div>
   <div style="flex: 1; text-align: right;">
-    <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/blob/master/_pages/Gamejam.png?raw=true" alt="Senior Executive" style="max-width: 200px;">
+    <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/blob/master/_pages/Gamejam.png?raw=true" alt="Senior Executive" style="max-width: 400px;">
   </div>
 </div>
 
@@ -31,7 +31,7 @@ _IIT Gandhinagar, May '23 - Jul '23_
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1; text-align: left;">
-    <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/blob/master/_pages/EPCOT2.jpg?raw=true" alt="Team Lead" style="max-width: 200px;">
+    <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/blob/master/_pages/EPCOT2.jpg?raw=true" alt="Team Lead" style="max-width: 400px;">
   </div>
   <div style="flex: 1;">
     <p><strong>Led a diverse team of 30 B.Tech undergraduates</strong>: Optimized their full potential through strategic work allocation and fostering a collaborative and healthy work environment.</p>
