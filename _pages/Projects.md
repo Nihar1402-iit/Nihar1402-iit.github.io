@@ -103,3 +103,4 @@ redirect_from:
 </div>
 
 ---
+[Go to Page 2](/page2/)
