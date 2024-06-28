@@ -20,7 +20,7 @@ _IIT Gandhinagar, Aug '23 - Oct '23_
     <p><strong>Contributed to Events Management</strong>: Ensured smooth logistics, accommodations, and hospitality for a seamless experience.</p>
   </div>
   <div style="flex: 1; text-align: right;">
-    <img src="_pages/Gamejam.png" alt="Senior Executive" style="max-width: 200px;">
+    <img src="[_pages/Gamejam.png](https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/blob/master/_pages/Gamejam.png?raw=true)" alt="Senior Executive" style="max-width: 200px;">
   </div>
 </div>
 
