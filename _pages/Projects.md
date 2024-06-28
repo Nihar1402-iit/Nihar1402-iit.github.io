@@ -30,7 +30,7 @@ _(Mar, 2024 - Apr, 2024)_
 _(Apr, 2023 - Jun, 2023)_
 
 ### Human Activity Recognizer (using Machine Learning)
-[![Human Activity Recognizer](path_to_image.jpg)](/projects/human-activity-recognizer)
+[![Human Activity Recognizer](https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/blob/master/_pages/decision_tree.png?raw=true)](/projects/human-activity-recognizer)
 _(Jan, 2024 - Feb, 2024)_
 
 ### Child Safety App
