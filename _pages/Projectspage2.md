@@ -58,8 +58,14 @@ author_profile: true
 
 <div class="projects-container">
   <div class="project">
-    <a href="/projects/animal-classification">
-      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/7b6780c5-8f7d-4d61-b37c-09fa7a417b39" alt="Animal Classification">
+    <a href="/projects/Verilog">
+      <img src="https://github.com/guntas-13/Verilog/raw/main/FinalProcessor/FPGA.png" alt="Verilog">
     </a>
-    <p>Animal Classification Using Custom CNN Models<br>(Apr, 2024 - May, 2024)</p>
+    <p>Verilog<br>(Apr, 2024 - May, 2024)</p>
   </div>
+---
+<div class="navigation">
+  <a href="/Projects/">1</a>
+  <a href="/Projectspage2/">2</a>
+  <a href="/Projectspage2/" class="arrow">Next &gt;</a>
+</div>
