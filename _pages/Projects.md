@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+
 <style>
 .projects-container {
   display: flex;
@@ -40,24 +41,22 @@ redirect_from:
 .navigation a {
   display: inline-block;
   margin: 0 5px;
-  padding: 8px 12px;
-  background-color: #007bff;
-  color: #fff;
+  padding: 6px 10px; /* Adjusted padding */
+  background-color: #ddd; /* Grey background */
+  color: #333; /* Dark text color */
   text-decoration: none;
   border-radius: 5px;
 }
 
 .navigation a:hover {
-  background-color: #0056b3;
+  background-color: #bbb; /* Darker grey on hover */
 }
 
 .navigation .arrow {
-  font-size: 20px;
+  font-size: 18px; /* Adjusted font size */
   vertical-align: middle;
 }
 </style>
-
-
 -----
 
 ## Projects
@@ -129,9 +128,7 @@ redirect_from:
 
 ---
 <div class="navigation">
-  <a href="#" class="arrow">&lt; Previous</a>
-  <a href="#">1</a>
-  <a href="#">2</a>
-  <a href="#">3</a>
-  <a href="#" class="arrow">Next &gt;</a>
+  <a href="/Projects/">1</a>
+  <a href="/Projectspage2/">2</a>
+  <a href="/Projectspage2/" class="arrow">Next &gt;</a>
 </div>
