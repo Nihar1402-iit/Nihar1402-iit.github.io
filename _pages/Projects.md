@@ -26,7 +26,7 @@ _(Feb, 2024 - Mar, 2024)_
 _(Mar, 2024 - Apr, 2024)_
 
 ### Modelling Oil spillage - Advection-Diffusion Equation (2-D)
-[![Modelling Oil spillage](path_to_image.jpg)](/projects/oil-spillage)
+[![Modelling Oil spillage](https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/blob/master/_pages/MA203.gif?raw=true)](/projects/oil-spillage)
 _(Apr, 2023 - Jun, 2023)_
 
 ### Human Activity Recognizer (using Machine Learning)
