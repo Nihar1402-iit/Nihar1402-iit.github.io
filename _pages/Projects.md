@@ -46,7 +46,8 @@ _(Aug, 2023 - Nov, 2023)_
 _(Mar, 2023 - May, 2023)_
 
 ### Evaporative Peltier Cooling Tent, for humidity and temperature regulation
-[![Evaporative Peltier Cooling Tent](path_to_image.jpg)](/projects/evaporative-cooling-tent)
+[![Evaporative Peltier Cooling Tent](![image](https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/658079ff-b2c7-4598-b252-e0093724ad89)
+)](/projects/evaporative-cooling-tent)
 _(May, 2023 - Jul, 2023)_
 
 ---
