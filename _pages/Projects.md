@@ -31,11 +31,34 @@ redirect_from:
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+.navigation {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.navigation a {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 6px 10px; /* Adjusted padding */
+  background-color: #ddd; /* Grey background */
+  color: #333; /* Dark text color */
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.navigation a:hover {
+  background-color: #bbb; /* Darker grey on hover */
+}
+
+.navigation .arrow {
+  font-size: 18px; /* Adjusted font size */
+  vertical-align: middle;
+}
 </style>
+
 
 -----
 
-## Projects
 
 <div class="projects-container">
   <div class="project">
@@ -102,4 +125,9 @@ redirect_from:
   </div>
 </div>
 
+<div class="navigation">
+  <a href="/Projects/">1</a>
+  <a href="/Projectspage2/">2</a>
+  <a href="/Projectspage2/" class="arrow">Next &gt;</a>
+</div>
 ---
