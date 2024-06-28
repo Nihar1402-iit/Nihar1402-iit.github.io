@@ -11,7 +11,7 @@ redirect_from:
 
 
 <style>
-.projects {
+.projects-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
