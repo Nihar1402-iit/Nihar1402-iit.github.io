@@ -65,8 +65,8 @@ author_profile: true
   </div>
 ---
 <div class="navigation">
-  <a href="/Projects.md/" class="arrow">Previous &gt;</a>
-  <a href="/Projects.md/">1</a>
-  <a href="/Projectspage2.md/">2</a>
+  <a href="_pages/Projects.md" class="arrow">Previous &gt;</a>
+  <a href="_pages/Projects.md">1</a>
+  <a href="_pages/Projectspage2.md">2</a>
   
 </div>
