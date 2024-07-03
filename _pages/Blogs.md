@@ -61,9 +61,9 @@ redirect_from:
 
 
 <div class="projects-container">
-  <div class="project">
-    <a href="/projects/animal-classification">
-      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/7b6780c5-8f7d-4d61-b37c-09fa7a417b39" alt="Animal Classification">
+  <div class="blog">
+    <a href="/blogs/SVM-Linearly-seperable">
+      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/5e0cb2c3-9943-466d-ad9b-20559840b74a" alt="Animal Classification">
     </a>
-    <p>Animal Classification Using Custom CNN Models<br>(Apr, 2024 - May, 2024)</p>
+    <p>SVM</p>
   </div>
