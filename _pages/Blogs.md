@@ -31,6 +31,7 @@ redirect_from:
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
 .navigation {
   text-align: center;
   margin-top: 20px;
@@ -60,8 +61,8 @@ redirect_from:
 
 <div class="projects-container">
   <div class="blog">
-    <a href="/_pages/Blog_SVM.ipynb">
-      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/5e0cb2c3-9943-466d-ad9b-20559840b74a" alt="Animal Classification">
+    <a href="/_pages/Blog_SVM.html">
+      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/5e0cb2c3-9943-466d-ad9b-20559840b74a" alt="SVM">
     </a>
     <p>SVM</p>
   </div>
