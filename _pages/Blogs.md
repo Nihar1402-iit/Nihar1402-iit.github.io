@@ -56,14 +56,13 @@ redirect_from:
 }
 </style>
 
-
 -----
-
 
 <div class="projects-container">
   <div class="blog">
-    <a href="/blogs/SVM-Linearly-seperable">
+    <a href="/_pages/Blog_SVM.ipynb">
       <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/5e0cb2c3-9943-466d-ad9b-20559840b74a" alt="Animal Classification">
     </a>
     <p>SVM</p>
   </div>
+</div>
