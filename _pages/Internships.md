@@ -19,7 +19,7 @@ Industrial Intern | Banglore, Karnataka | _May '24 - Current_
 ### Key Responsibilities and Achievements
 
 - **Developed a real-time face recognition system using Python, OpenCV, and the face-recognition library**: Integrated deep learning for face encoding, implemented secure registration, Aadhaar details retrieval for recognized faces, and managed data through CSV file storage and Tkinter GUI.  I also created a user-friendly web interface using Streamlit and WebRTC for real-time video streaming and face recognition, which can be used on Zoom or Google Meet calls for authentication purposes, specifically for interview-like environments.
-  - ![Project Details]()
+
   <a href="https://github.com/Nihar1402-iit/Face_recognition">
   <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/0d3232a9-07a9-4610-b4fc-4a80f9af1aa0" alt="Image">
 </a>
