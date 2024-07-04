@@ -71,7 +71,7 @@ redirect_from:
 <div class="projects-container">
   <div class="blog">
     <a href="/_pages/SVM_kernals.html">
-      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/0e15ff94-317e-4a9f-8815-f39c08d01870" alt="SVM">
+      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/80c4683d-5c96-4ff5-b54e-4e4d1d06bf07" alt="SVM">
     </a>
     <p>SVM-kernal</p>
   </div>
