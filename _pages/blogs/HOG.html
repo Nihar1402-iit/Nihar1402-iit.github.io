@@ -4,31 +4,32 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>29598ce102084146bdb8051d507da9df</title>
+  <title>Support Vector Machines</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
   <style>
     html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 20px;
-      color: #1a1a1a;
+      line-height: 1.6;
+      font-family: 'Dancing Script', cursive;
+      font-size: 16px;
+      color: #000;
       background-color: #fdfdfd;
     }
     body {
       margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
+      max-width: 48em;
+      padding: 30px;
       hyphens: auto;
       overflow-wrap: break-word;
       text-rendering: optimizeLegibility;
       font-kerning: normal;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
     }
     @media (max-width: 600px) {
       body {
-        font-size: 0.9em;
-        padding: 1em;
+        font-size: 0.8em;
+        padding: 20px;
       }
       h1 {
         font-size: 1.8em;
@@ -52,23 +53,41 @@
       margin: 1em 0;
     }
     a {
-      color: #1a1a1a;
+      color: #000;
+      text-decoration: none;
     }
     a:visited {
-      color: #1a1a1a;
+      color: #000;
+    }
+    a:hover {
+      text-decoration: underline;
     }
     img {
       max-width: 100%;
+      border-radius: 4px;
     }
     h1, h2, h3, h4, h5, h6 {
       margin-top: 1.4em;
+      color: #444;
     }
-    h5, h6 {
-      font-size: 1em;
+    h1 {
+      font-size: 2.2em;
+      color: #000;
+      border-bottom: 2px solid #000;
+      padding-bottom: 0.2em;
+    }
+    h2 {
+      font-size: 1.8em;
+      color: #000;
+    }
+    h3 {
+      font-size: 1.5em;
+      color: #000;
+    }
+    h4, h5, h6 {
+      font-size: 1.2em;
+      color: #000;
       font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
     }
     ol, ul {
       padding-left: 1.7em;
@@ -78,12 +97,13 @@
       margin-top: 0;
     }
     blockquote {
-      margin: 1em 0 1em 1.7em;
+      margin: 1em 0;
       padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
+      border-left: 4px solid #000;
       color: #606060;
-    }
-    code {
+      background-color: #f1f1f1;
+      border-radius: 4px;
+    }    code {
       font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
       font-size: 85%;
       margin: 0;
