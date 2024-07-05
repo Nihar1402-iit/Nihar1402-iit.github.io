@@ -76,3 +76,12 @@ redirect_from:
     <p>SVM-kernal</p>
   </div>
 </div>
+
+<div class="projects-container">
+  <div class="blog">
+    <a href="/_pages/SVM_kernals.html">
+      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/56ac26a3-2f85-4dfe-9898-a22e3b779b63" alt="SVM">
+    </a>
+    <p>HOG</p>
+  </div>
+</div>
