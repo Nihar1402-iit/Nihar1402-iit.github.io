@@ -85,3 +85,12 @@ redirect_from:
     <p>HOG</p>
   </div>
 </div>
+
+<div class="projects-container">
+  <div class="blog">
+    <a href="/_pages/dlib_face_recognition.html">
+      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/288685f4-bff4-40ed-a303-df0b43067314" alt="SVM">
+    </a>
+    <p>dlib Face_recognition</p>
+  </div>
+</div>
