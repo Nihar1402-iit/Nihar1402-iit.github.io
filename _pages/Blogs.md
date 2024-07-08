@@ -13,18 +13,18 @@ redirect_from:
 .projects-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between; /* Ensures equal spacing between items */
   gap: 20px; /* Adjust the gap between projects */
 }
 
-.project {
-  width: 30%; /* Adjust as needed */
+.blog {
+  width: 30%; /* Ensures 3 items fit in one line */
   box-sizing: border-box;
   padding: 10px;
   text-align: center;
 }
 
-.project img {
+.blog img {
   width: 100%;
   height: auto;
   border: 1px solid #ddd;
@@ -66,27 +66,21 @@ redirect_from:
     </a>
     <p>SVM</p>
   </div>
-</div>
-
-<div class="projects-container">
+  
   <div class="blog">
     <a href="/_pages/SVM_kernals.html">
       <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/80c4683d-5c96-4ff5-b54e-4e4d1d06bf07" alt="SVM">
     </a>
     <p>SVM-kernal</p>
   </div>
-</div>
-
-<div class="projects-container">
+  
   <div class="blog">
     <a href="/_pages/HOG_blogs.html">
       <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/56ac26a3-2f85-4dfe-9898-a22e3b779b63" alt="SVM">
     </a>
     <p>HOG</p>
   </div>
-</div>
-
-<div class="projects-container">
+  
   <div class="blog">
     <a href="/_pages/dlib_face_recognition.html">
       <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/288685f4-bff4-40ed-a303-df0b43067314" alt="SVM">
