@@ -39,7 +39,7 @@ Education:
 My Background:
 -------
 
-- Born and raised in **Ahmedabad**, Gujarat, I spent the first 19 years of my life there with my parents in Mumbai. 
+- Born in **Ahmedabad**, Gujarat, I spent the first 19 years of my life there with my parents in Mumbai. 
   
   
 <hr>
