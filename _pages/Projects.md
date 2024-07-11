@@ -127,7 +127,7 @@ redirect_from:
 
 <div class="navigation">
   <a href="/projects">1</a>
-  <a href="_pages/projects/Projectspage2.md ">2</a>
-  <a href="_pages/projects/Projectspage2.md" class="arrow">Next &gt;</a>
+  <a href="projects/Projectspage2.md ">2</a>
+  <a href="projects/Projectspage2.md" class="arrow">Next &gt;</a>
 </div>
 ---
