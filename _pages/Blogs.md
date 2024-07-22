@@ -62,7 +62,7 @@ redirect_from:
 <div class="projects-container">
   <div class="blog">
     <a href="/_pages/FFT (2).html">
-      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/288685f4-bff4-40ed-a303-df0b43067314" alt="SVM">
+      <img src="https://github.com/user-attachments/assets/ba545056-0b90-4649-820e-441b11ee8d96" alt="SVM">
     </a>
     <p>FFT and its application</p>
   </div>
