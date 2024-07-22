@@ -61,24 +61,17 @@ redirect_from:
 
 <div class="projects-container">
   <div class="blog">
-    <a href="/_pages/Blog_SVM.html">
-      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/5e0cb2c3-9943-466d-ad9b-20559840b74a" alt="SVM">
+    <a href="/_pages/FFT (2).html">
+      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/288685f4-bff4-40ed-a303-df0b43067314" alt="SVM">
     </a>
-    <p>SVM</p>
+    <p>FFT and its application</p>
   </div>
   
   <div class="blog">
-    <a href="/_pages/SVM_kernals.html">
-      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/80c4683d-5c96-4ff5-b54e-4e4d1d06bf07" alt="SVM">
+    <a href="/_pages/RNN.html">
+      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/288685f4-bff4-40ed-a303-df0b43067314" alt="SVM">
     </a>
-    <p>SVM-kernal</p>
-  </div>
-  
-  <div class="blog">
-    <a href="/_pages/HOG_blogs.html">
-      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/56ac26a3-2f85-4dfe-9898-a22e3b779b63" alt="SVM">
-    </a>
-    <p>HOG</p>
+    <p>Recurrent Neural Networks</p>
   </div>
   
   <div class="blog">
@@ -87,4 +80,26 @@ redirect_from:
     </a>
     <p>dlib Face_recognition</p>
   </div>
+
+  <div class="blog">
+    <a href="/_pages/HOG_blogs.html">
+      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/56ac26a3-2f85-4dfe-9898-a22e3b779b63" alt="SVM">
+    </a>
+    <p>HOG</p>
+  </div>
+
+  <div class="blog">
+    <a href="/_pages/SVM_kernals.html">
+      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/80c4683d-5c96-4ff5-b54e-4e4d1d06bf07" alt="SVM">
+    </a>
+    <p>SVM-kernal</p>
+  </div>
+  
+  <div class="blog">
+    <a href="/_pages/Blog_SVM.html">
+      <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/5e0cb2c3-9943-466d-ad9b-20559840b74a" alt="SVM">
+    </a>
+    <p>SVM</p>
+  </div>
+  
 </div>
