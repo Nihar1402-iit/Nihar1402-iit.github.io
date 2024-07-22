@@ -69,8 +69,9 @@ redirect_from:
   
   <div class="blog">
     <a href="/_pages/RNN.html">
-      <img src="https://github.com/user-attachments/assets/3b55f107-5ec2-4ffb-a13c-47edc5bcfd98" alt="SVM">PC:Research Gate
+      <img src="https://github.com/user-attachments/assets/3b55f107-5ec2-4ffb-a13c-47edc5bcfd98" alt="SVM">
     </a>
+    PC:Research Gate
     <p>Recurrent Neural Networks</p>
   </div>
   
