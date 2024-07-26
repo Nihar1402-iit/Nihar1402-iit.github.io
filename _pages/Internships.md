@@ -32,7 +32,7 @@ Industrial Intern | Banglore, Karnataka | _May '24 - Current_
 </a>
 
 
-- **Currently working under the CTO of Corover.ai**: I am also leading a team of 4 interns and training them in basic skills required to build an LLM and fine tune an LLM.
+- **Worked under the CTO of Corover.ai**: I  also lead a team of 2 interns, training them in basic skills required to build an LLM and fine tune an LLM.
  
 - **Developed a real-time text-to-speech system using Bark framework integrated with Torch and Coqui TTS**: Implemented voice synthesis from text, utilizing deep learning techniques for efficient audio generation. Successfully loaded and utilized pretrained checkpoints for model evaluation and synthesized high-quality speech outputs saved as WAV files.
   
