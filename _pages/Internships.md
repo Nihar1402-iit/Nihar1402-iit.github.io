@@ -32,7 +32,7 @@ Industrial Intern | Banglore, Karnataka | _May '24 - Current_
   
 - Developed a multimedia processing application using Python, integrating libraries such as MoviePy, SpeechRecognition, and Transformers. Implemented functionality to convert MP4 videos to WAV format, transcribe speech to text, summarize content, and perform sentiment analysis. The application also generates synthesized speech from summarized text and classifies the working environment based on sentiment analysis.
   <a href="https://github.com/Nihar1402-iit/TTS-STT-Voice_cloning">
-  <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/ac98629b-8a95-4fb2-b789-f349b8bf9e13" alt="Image">
+  <img src="https://github.com/user-attachments/assets/b8297f86-8943-4dca-8c70-366d3d3eb8be" alt="Image">
 </a>
 
 
