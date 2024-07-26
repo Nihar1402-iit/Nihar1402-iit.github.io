@@ -60,6 +60,15 @@ redirect_from:
 -----
 
 <div class="projects-container">
+![image]()
+
+<div class="blog">
+    <a href="/_pages/UPI_voice.html">
+      <img src="https://github.com/user-attachments/assets/789a699f-c4f6-40cd-ae20-8ac0bc0dfb5b" alt="upi_VOICE">
+    </a>
+    <p>UPI Payment using Voice</p>
+  </div>
+  
 <div class="blog">
     <a href="/_pages/HNSW.html">
       <img src="https://github.com/user-attachments/assets/ef9dd466-d5f2-44fe-affa-bc0bde0d64b4" alt="HNSW">
