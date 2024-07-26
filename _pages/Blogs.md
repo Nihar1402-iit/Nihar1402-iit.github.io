@@ -60,8 +60,6 @@ redirect_from:
 -----
 
 <div class="projects-container">
-![image]()
-
 <div class="blog">
     <a href="/_pages/UPI_voice.html">
       <img src="https://github.com/user-attachments/assets/789a699f-c4f6-40cd-ae20-8ac0bc0dfb5b" alt="upi_VOICE">
