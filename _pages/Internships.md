@@ -18,12 +18,18 @@ Industrial Intern | Banglore, Karnataka | _May '24 - Current_
 
 ### Key Responsibilities and Achievements
 
+
+- **Developed a Bigram Language Model using PyTorch** with a transformer architecture to generate text based on pathology data from Robbins-Pathologic2005.txt. Implemented multi-head self-attention and feed-forward layers to capture complex patterns in text sequences. Achieved effective text generation capabilities and demonstrated proficiency in model training and hyperparameter tuning.
+
+  <a href="https://github.com/Nihar1402-iit/Simple_Bigram_Language_Model">
+  <img src="https://github.com/user-attachments/assets/eae90a19-9ce7-401a-9f9f-7ef6ac1db2c2" alt="Image">
+</a>
+
 - **Developed a real-time face recognition system using Python, OpenCV, and the face-recognition library**: Integrated deep learning for face encoding, implemented secure registration, Aadhaar details retrieval for recognized faces, and managed data through CSV file storage and Tkinter GUI.  I also created a user-friendly web interface using Streamlit and WebRTC for real-time video streaming and face recognition, which can be used on Zoom or Google Meet calls for authentication purposes, specifically for interview-like environments.
 
   <a href="https://github.com/Nihar1402-iit/Face_recognition">
   <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/0d3232a9-07a9-4610-b4fc-4a80f9af1aa0" alt="Image">
 </a>
-
 
 
 - **Currently working under the CTO of Corover.ai**: I am also leading a team of 4 interns and training them in basic skills required to build an LLM and fine tune an LLM.
