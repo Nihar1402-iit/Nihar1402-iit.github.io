@@ -29,6 +29,8 @@ Industrial Intern | Banglore, Karnataka | _May '24 - Current_
 - **Currently working under the CTO of Corover.ai**: I am also leading a team of 4 interns and training them in basic skills required to build an LLM and fine tune an LLM.
  
 - **Developed a real-time text-to-speech system using Bark framework integrated with Torch and Coqui TTS**: Implemented voice synthesis from text, utilizing deep learning techniques for efficient audio generation. Successfully loaded and utilized pretrained checkpoints for model evaluation and synthesized high-quality speech outputs saved as WAV files.
+  
+- Developed a multimedia processing application using Python, integrating libraries such as MoviePy, SpeechRecognition, and Transformers. Implemented functionality to convert MP4 videos to WAV format, transcribe speech to text, summarize content, and perform sentiment analysis. The application also generates synthesized speech from summarized text and classifies the working environment based on sentiment analysis.
   <a href="https://github.com/Nihar1402-iit/TTS-STT-Voice_cloning">
   <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/ac98629b-8a95-4fb2-b789-f349b8bf9e13" alt="Image">
 </a>
