@@ -19,6 +19,11 @@ Industrial Intern | Banglore, Karnataka | _May '24 - Current_
 ### Key Responsibilities and Achievements
 
 
+- **Developed simulation for a voice-enabled UPI payment web application using Python** , integrating SpeechRecognition for speech-to-text conversion, gTTS for text-to-speech synthesis, and Eyowo API for transaction processing. Designed and implemented the complete workflow, including intent recognition, entity extraction, and action execution, providing a seamless voice-activated payment experience. The project demonstrates innovative use of voice technology for financial transactions, enhancing user accessibility and convenience.
+   <a href="https://github.com/Nihar1402-iit/Voice_enabled_upi_payment">
+  <img src="https://github.com/user-attachments/assets/cd5ed37b-c9f3-45c2-b3ae-3d9b6695bb3e" alt="Image">
+</a>
+
 - **Developed a Bigram Language Model using PyTorch** with a transformer architecture to generate text based on pathology data from Robbins-Pathologic2005.txt. Implemented multi-head self-attention and feed-forward layers to capture complex patterns in text sequences. Achieved effective text generation capabilities and demonstrated proficiency in model training and hyperparameter tuning.
 
   <a href="https://github.com/Nihar1402-iit/Simple_Bigram_Language_Model">
