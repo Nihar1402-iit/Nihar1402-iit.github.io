@@ -77,12 +77,24 @@ redirect_from:
 
 <div class="projects-container">
   <div class="project">
+    <a href="/projects/Fuzzy_app">
+      <img src=" https://github.com/user-attachments/assets/c222325e-1cf6-4d47-b0e3-c140ea0c703f" alt="Fuzzy">
+    </a>
+    <p>Fuzzy Logic based App<br>(Apr, 2024 - May, 2024)</p>
+  </div>
+---
+
+<div class="projects-container">
+  <div class="project">
     <a href="/projects/RNN">
       <img src="https://github.com/user-attachments/assets/1555a490-bdd2-4f3b-879a-734352403279" alt="RNN">
     </a>
     <p>RNN_Self-Attention_Sine_Prediction<br>(Apr, 2024 - May, 2024)</p>
   </div>
 ---
+
+
+
 <div class="navigation">
   <a href="/projects" class="arrow">Previous &gt;</a>
   <a href="/projects">1</a>
