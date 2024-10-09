@@ -69,8 +69,8 @@ redirect_from:
   </div>
 ---
 <div class="navigation">
-  <a href="Projects.md" class="arrow">Previous &gt;</a>
-  <a href="Projects.md">1</a>
+  <a href="/" class="arrow">Previous &gt;</a>
+  <a href="/">1</a>
   <a href="Projectspage2.md ">2</a>
   
 </div>
