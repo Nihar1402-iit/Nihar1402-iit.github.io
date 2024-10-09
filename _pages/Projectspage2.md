@@ -1,9 +1,10 @@
 ---
-layout: archive
+layout: page
 title: "Page 2"
-permalink: /page2/
+permalink: /projects/Projectspage2/
 author_profile: true
 ---
+
 
 <style>
 .projects-container {
