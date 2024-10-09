@@ -1,11 +1,12 @@
 ---
-layout: page
-title: "Page 2"
-permalink: /projects/Projectspage2/
+layout: archive
+title: "Projects"
+permalink: /projects/
 author_profile: true
 redirect_from:
   - /projects
 ---
+
 
 
 <style>
