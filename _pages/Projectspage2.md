@@ -66,6 +66,22 @@ redirect_from:
     </a>
     <p>Verilog<br>(Apr, 2024 - May, 2024)</p>
   </div>
+
+  <div class="projects-container">
+  <div class="project">
+    <a href="/projects/Super_res">
+      <img src="https://github.com/user-attachments/assets/3fac0e8d-1144-467a-b71e-fdd1febf2a69" alt="Super-Resolution Using Random Fourier Features and Linear Regression">
+    </a>
+    <p>Super-Resolution Using Random Fourier Features and Linear Regression<br>(Apr, 2024 - May, 2024)</p>
+  </div>
+
+<div class="projects-container">
+  <div class="project">
+    <a href="/projects/RNN">
+      <img src="https://github.com/user-attachments/assets/1555a490-bdd2-4f3b-879a-734352403279" alt="RNN">
+    </a>
+    <p>RNN_Self-Attention_Sine_Prediction<br>(Apr, 2024 - May, 2024)</p>
+  </div>
 ---
 <div class="navigation">
   <a href="/projects" class="arrow">Previous &gt;</a>
