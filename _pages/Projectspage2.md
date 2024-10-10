@@ -14,12 +14,12 @@ redirect_from:
 .projects-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 20px; /* Adjust the gap between projects */
 }
 
 .project {
-  width: 30%; /* Adjust as needed */
+  width: 30%; /* Set to 30% to fit 3 projects per row */
   box-sizing: border-box;
   padding: 10px;
   text-align: center;
@@ -30,8 +30,9 @@ redirect_from:
   height: auto;
   border: 1px solid #ddd;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .navigation {
   text-align: center;
   margin-top: 20px;
