@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "RNN_Self-Attention_Sine_Prediction"
-permalink: /projects/RNN_self/
+permalink: /projects/RNN/
 author_profile: true
 ---
 
