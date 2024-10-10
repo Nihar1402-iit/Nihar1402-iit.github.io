@@ -67,7 +67,7 @@ redirect_from:
     <a href="/projects/Verilog">
       <img src="https://github.com/guntas-13/Verilog/raw/main/FinalProcessor/FPGA.png" alt="Verilog">
     </a>
-    <p>Verilog<br>(Apr, 2024 - May, 2024)</p>
+    <p>Mini Processor<br>(Apr, 2024 - May, 2024)</p>
   </div>
 
   <div class="projects-container">
