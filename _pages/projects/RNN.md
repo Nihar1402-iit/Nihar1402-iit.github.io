@@ -14,6 +14,8 @@ _Apr, 2024 - May, 2024_
 
 - Created a simple RNN model and a custom self-attention model for predicting sine and cosine values.
 - Analyzed prediction curves and calculated MSE loss to assess model performance.
-- Achieved accurate classification results, visualized convolutional layer outputs to interpret learned features, and demonstrated effective model performance through classification matrices.Demonstrated expertise in time series forecasting and advanced deep learning techniques.
+- Achieved accurate classification results, visualized convolutional layer outputs to interpret learned features, and demonstrated effective model performance through classification matrices.
+- Demonstrated expertise in time series forecasting and advanced deep learning techniques.
+
 ---
 
