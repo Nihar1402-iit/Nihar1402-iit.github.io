@@ -74,7 +74,7 @@ redirect_from:
 
   <div class="project">
     <a href="/projects/Fuzzyapp">
-      <img src="https://github.com/user-attachments/assets/c222325e-1cf6-4d47-b0e3-c140ea0c703f" alt="Fuzzy">
+      <img src="https://github.com/user-attachments/assets/d263edaa-b0be-49b4-bda4-22d741c9a3ab" alt="Fuzzy">
     </a>
     <p>Fuzzy Logic based App<br>(Apr, 2024 - May, 2024)</p>
   </div>
