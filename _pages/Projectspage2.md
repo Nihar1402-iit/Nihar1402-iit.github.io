@@ -7,7 +7,6 @@ redirect_from:
   - /projects2
 ---
 
-
 {% include base_path %}
 
 <style>
@@ -58,9 +57,6 @@ redirect_from:
 }
 </style>
 
-
------
-
 <div class="projects-container">
   <div class="project">
     <a href="/projects/Verilog">
@@ -69,7 +65,6 @@ redirect_from:
     <p>Mini Processor<br>(Apr, 2024 - May, 2024)</p>
   </div>
 
-  <div class="projects-container">
   <div class="project">
     <a href="/projects/Superres">
       <img src="https://github.com/user-attachments/assets/3fac0e8d-1144-467a-b71e-fdd1febf2a69" alt="Super-Resolution Using Random Fourier Features and Linear Regression">
@@ -77,29 +72,23 @@ redirect_from:
     <p>Super-Resolution Using Random Fourier Features and Linear Regression<br>(Apr, 2024 - May, 2024)</p>
   </div>
 
-<div class="projects-container">
   <div class="project">
     <a href="/projects/Fuzzyapp">
-      <img src=" https://github.com/user-attachments/assets/c222325e-1cf6-4d47-b0e3-c140ea0c703f" alt="Fuzzy">
+      <img src="https://github.com/user-attachments/assets/c222325e-1cf6-4d47-b0e3-c140ea0c703f" alt="Fuzzy">
     </a>
     <p>Fuzzy Logic based App<br>(Apr, 2024 - May, 2024)</p>
   </div>
----
 
-<div class="projects-container">
   <div class="project">
     <a href="/projects/RNN">
       <img src="https://github.com/user-attachments/assets/1555a490-bdd2-4f3b-879a-734352403279" alt="RNN">
     </a>
     <p>RNN_Self-Attention_Sine_Prediction<br>(Apr, 2024 - May, 2024)</p>
   </div>
----
-
-
+</div>
 
 <div class="navigation">
   <a href="/projects" class="arrow">Previous &gt;</a>
   <a href="/projects">1</a>
   <a href="/projects2">2</a>
-  
 </div>
