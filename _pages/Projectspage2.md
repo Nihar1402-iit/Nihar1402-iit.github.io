@@ -60,8 +60,6 @@ redirect_from:
 
 -----
 
-## Projects
-
 <div class="projects-container">
   <div class="project">
     <a href="/projects/Verilog">
