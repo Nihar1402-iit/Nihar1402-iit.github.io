@@ -31,6 +31,7 @@ redirect_from:
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
 .navigation {
   text-align: center;
   margin-top: 20px;
@@ -58,7 +59,6 @@ redirect_from:
 
 
 -----
-
 
 <div class="projects-container">
   <div class="project">
@@ -125,7 +125,6 @@ redirect_from:
   </div>
 <div class="navigation">
   <a href="/projects">1</a>
-  <a href="/projects2 ">2</a>
+  <a href="/projects2">2</a>
   <a href="/projects2" class="arrow">Next &gt;</a>
 </div>
----
