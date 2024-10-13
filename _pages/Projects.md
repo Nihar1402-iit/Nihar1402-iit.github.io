@@ -123,8 +123,6 @@ redirect_from:
     </a>
     <p>ANN with Pytorch On Pima Diabetes Dataset<br>(Oct, 2024)</p>
   </div>
-  
-
 <div class="navigation">
   <a href="/projects">1</a>
   <a href="/projects2 ">2</a>
