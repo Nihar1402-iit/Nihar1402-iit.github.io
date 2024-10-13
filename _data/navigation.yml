@@ -18,8 +18,8 @@ main:
   - title: "Blogs"
     url: /blogs/
    
-  - title: "Hackathons"
-    url: /hackathon/
+  # - title: "Hackathons"
+  #   url: /hackathon/
     
   - title: "CV"
     url: /files/Nihar_cv (1).pdf
