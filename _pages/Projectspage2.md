@@ -11,17 +11,15 @@ redirect_from:
 
 <style>
 .projects-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 projects per row */
   gap: 20px; /* Adjust the gap between projects */
 }
 
 .project {
-  width: 30%; /* Set to 30% to fit 3 projects per row */
-  box-sizing: border-box;
-  padding: 10px;
   text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .project img {
@@ -85,7 +83,6 @@ redirect_from:
     </a>
     <p>RNN_Self-Attention_Sine_Prediction<br>(Apr, 2024 - May, 2024)</p>
   </div>
-</div>
 
   <div class="project">
     <a href="/projects/evaporative-cooling-tent">
@@ -100,10 +97,31 @@ redirect_from:
     </a>
     <p>ANN with Pytorch On Pima Diabetes Dataset<br>(Oct, 2024)</p>
   </div>
+  
+  <div class="project">
+    <a href="/projects/HousePrice">
+      <img src="https://github.com/user-attachments/assets/houseprice.jpg" alt="House Price">
+    </a>
+    <p>House Price Prediction with PyTorch<br>(Oct, 2024)</p>
+  </div>
+
+  <div class="project">
+    <a href="/projects/FPGA">
+      <img src="https://github.com/user-attachments/assets/fpga.jpg" alt="FPGA">
+    </a>
+    <p>FPGA-based Design Project<br>(Jun, 2024)</p>
+  </div>
+
+  <div class="project">
+    <a href="/projects/MachineLearning">
+      <img src="https://github.com/user-attachments/assets/ml.jpg" alt="Machine Learning">
+    </a>
+    <p>Machine Learning in Healthcare<br>(Aug, 2024)</p>
+  </div>
+</div>
+
 <div class="navigation">
- <a href="/projects" class="arrow"> &lt; Previous</a>
+  <a href="/projects" class="arrow"> &lt; Previous</a>
   <a href="/projects">1</a>
   <a href="/projects2">2</a>
-
-   
 </div>
