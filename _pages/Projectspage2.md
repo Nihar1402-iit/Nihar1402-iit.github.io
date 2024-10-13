@@ -98,27 +98,6 @@ redirect_from:
     <p>ANN with Pytorch On Pima Diabetes Dataset<br>(Oct, 2024)</p>
   </div>
   
-  <div class="project">
-    <a href="/projects/HousePrice">
-      <img src="https://github.com/user-attachments/assets/houseprice.jpg" alt="House Price">
-    </a>
-    <p>House Price Prediction with PyTorch<br>(Oct, 2024)</p>
-  </div>
-
-  <div class="project">
-    <a href="/projects/FPGA">
-      <img src="https://github.com/user-attachments/assets/fpga.jpg" alt="FPGA">
-    </a>
-    <p>FPGA-based Design Project<br>(Jun, 2024)</p>
-  </div>
-
-  <div class="project">
-    <a href="/projects/MachineLearning">
-      <img src="https://github.com/user-attachments/assets/ml.jpg" alt="Machine Learning">
-    </a>
-    <p>Machine Learning in Healthcare<br>(Aug, 2024)</p>
-  </div>
-</div>
 
 <div class="navigation">
   <a href="/projects" class="arrow"> &lt; Previous</a>
