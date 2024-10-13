@@ -116,10 +116,13 @@ redirect_from:
     </a>
     <p>Data Narrative of Tennis Major Tournament<br>(Mar, 2023 - May, 2023)</p>
   </div>
-
-
-
   
+  <div class="project">
+    <a href="/projects/NN">
+      <img src="https://github.com/user-attachments/assets/5447ca9d-7f5a-4a8b-ab78-3ce07761c59b" alt="NN">
+    </a>
+    <p>House Price Prediction with PyTorch<br>(Oct, 2024)</p>
+  </div>
 <div class="navigation">
   <a href="/projects">1</a>
   <a href="/projects2 ">2</a>
