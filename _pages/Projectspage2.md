@@ -93,11 +93,8 @@ redirect_from:
     </a>
     <p>Evaporative Peltier Cooling Tent, for humidity and temperature regulation<br>(May, 2023 - Jul, 2023)</p>
   </div>
-</div>
-
-
 <div class="navigation">
-  <a href="/projects" class="arrow">Previous &gt;</a>
+  <a href="/projects" class="arrow" <Previous &gt;</a>
   <a href="/projects">1</a>
   <a href="/projects2">2</a>
 </div>
