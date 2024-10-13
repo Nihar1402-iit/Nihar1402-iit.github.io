@@ -117,7 +117,13 @@ redirect_from:
     <p>Data Narrative of Tennis Major Tournament<br>(Mar, 2023 - May, 2023)</p>
   </div>
 
-
+<div class="project">
+    <a href="/projects/ANN">
+      <img src="https://github.com/user-attachments/assets/3f2523f3-001e-4fc0-8291-5f0653748e71" alt="ANN">
+    </a>
+    <p>ANN with Pytorch On Pima Diabetes Dataset<br>(Oct, 2024)</p>
+  </div>
+  
 
 <div class="navigation">
   <a href="/projects">1</a>
