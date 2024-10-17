@@ -61,6 +61,14 @@ redirect_from:
 
 <div class="projects-container">
 <div class="blog">
+    <a href="/_pages/Shot_Prompting.html">
+      <img src="https://github.com/user-attachments/assets/789a699f-c4f6-40cd-ae20-8ac0bc0dfb5b" alt="S_P">
+    </a>
+    <p>Shot Prompting(explained on Amazon ML challenge'24 dataset)</p>
+  </div>
+  
+<div class="projects-container">
+<div class="blog">
     <a href="/_pages/UPI_voice.html">
       <img src="https://github.com/user-attachments/assets/789a699f-c4f6-40cd-ae20-8ac0bc0dfb5b" alt="upi_VOICE">
     </a>
