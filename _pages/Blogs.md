@@ -118,7 +118,7 @@ redirect_from:
   </div>
   
   <div class="blog">
-    <a href="/_pages/Blog_SVM.html">
+    <a href="/_pages/Blog_SVM (1).html">
       <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/5e0cb2c3-9943-466d-ad9b-20559840b74a" alt="SVM">
     </a>
     <p>SVM</p>
