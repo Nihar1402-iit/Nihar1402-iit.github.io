@@ -13,18 +13,18 @@ redirect_from:
 .projects-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Ensures equal spacing between items */
+  justify-content: space-around;
   gap: 20px; /* Adjust the gap between projects */
 }
 
-.blog {
-  width: 30%; /* Ensures 3 items fit in one line */
+.project {
+  width: 30%; /* Adjust as needed */
   box-sizing: border-box;
   padding: 10px;
   text-align: center;
 }
 
-.blog img {
+.project img {
   width: 100%;
   height: auto;
   border: 1px solid #ddd;
@@ -57,8 +57,8 @@ redirect_from:
 }
 </style>
 
------
 
+-----
 <div class="projects-container">
 <div class="blog">
     <a href="/_pages/Shot_Prompting.html">
