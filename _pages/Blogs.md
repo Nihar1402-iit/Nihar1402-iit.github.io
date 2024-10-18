@@ -124,8 +124,8 @@ redirect_from:
     <p>SVM</p>
   </div>
   <div class="navigation">
-  <a href="/projects">1</a>
-  <a href="/projects2">2</a>
-  <a href="/projects2" class="arrow">Next &gt;</a>
+  <a href="/blogs">1</a>
+  <a href="/blogs2">2</a>
+  <a href="/blogs2" class="arrow">Next &gt;</a>
 </div>
-
+</div>
