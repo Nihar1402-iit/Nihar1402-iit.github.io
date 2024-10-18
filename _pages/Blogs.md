@@ -73,14 +73,14 @@ redirect_from:
   </div>
 
   <div class="project">
-    <a href="/_pages/HNSW.html">
+    <a href="/_pages/HNSW_2.html">
       <img src="https://github.com/user-attachments/assets/ef9dd466-d5f2-44fe-affa-bc0bde0d64b4" alt="HNSW">
     </a>
     <p>Hierarchical Navigable Small World(HNSW) Graphs</p>
   </div>
 
   <div class="project">
-    <a href="/_pages/FFT (2).html">
+    <a href="/_pages/FFT_2.html">
       <img src="https://github.com/user-attachments/assets/ba545056-0b90-4649-820e-441b11ee8d96" alt="SVM">
     </a>
     <p>FFT and its application</p>
