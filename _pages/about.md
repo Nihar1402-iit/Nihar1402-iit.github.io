@@ -11,7 +11,7 @@ redirect_from:
 
 About Me:
 -----
-I am currently a sophomore at one of the most prestigious technological institutes, **Indian Institute of Technology Gandhinagar**, majoring in Electrical Engineering.
+I am currently a final-year student at one of the most prestigious technological institutes, **Indian Institute of Technology Gandhinagar**, majoring in Electrical Engineering and having a minor in Computer Science and Engineering.
 
 -	I am currently mastering my skills in  Machine Learning to solve real-life problems. I like Mathematics.
 - I am also exploring fields of Data Science, Digital Signal Processing and Hardware Implementation within Computer Architecture.
@@ -30,7 +30,7 @@ Education:
 
 | Degree | Specialization | Institute | Year | CPI/% |
 | --- | --- | --- | --- | --- | 
-| B.Tech. | _Electrical Engineering_| IIT Gandhinagar| 2022-Present| 8.59/10| 
+| B.Tech. | _Electrical Engineering_| IIT Gandhinagar| 2022-Present| 8.80/10| 
 | Class XII  | _Physics, Chemistry, Maths_| Prakash College| 2021-2022 | 87.17 %| 
 | Class X | | Ryan International School, Mumbai | 2019-2020| 97.6 %| 
 
