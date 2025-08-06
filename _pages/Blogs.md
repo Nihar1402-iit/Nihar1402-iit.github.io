@@ -60,7 +60,7 @@ redirect_from:
 <div class="projects-container">
   <div class="project">
     <a href="/_pages/Grad_desc.html">
-      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="S_P">
+      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
     </a>
     <p>Understanding Gradient Descent and Its Variants</p>
   </div>
