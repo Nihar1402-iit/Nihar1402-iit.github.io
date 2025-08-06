@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Gradient Descent and Its Variants</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.7;
+            color: #e2e8f0;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 3rem 0;
+            background: linear-gradient(135deg, #1e40af 0%, #7c3aed 100%);
+            border-radius: 2rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin-bottom: 4rem;
+            background: rgba(30, 41, 59, 0.5);
+            padding: 2.5rem;
+            border-radius: 1.5rem;
+            border: 1px solid rgba(71, 85, 105, 0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        .section h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #60a5fa;
+        }
+
+        .section h3 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin: 2rem 0 1rem 0;
+            color: #a78bfa;
+        }
+
+        .math-block {
+            background: rgba(15, 23, 42, 0.8);
+            padding: 1.5rem;
+            border-radius: 1rem;
+            margin: 1.5rem 0;
+            border-left: 4px solid #3b82f6;
+            overflow-x: auto;
+        }
+
+        .code-block {
+            background: rgba(15, 23, 42, 0.9);
+            border-radius: 1rem;
+            margin: 1.5rem 0;
+            overflow: hidden;
+            border: 1px solid rgba(71, 85, 105, 0.3);
+        }
+
+        .code-header {
+            background: linear-gradient(135deg, #1e40af 0%, #7c3aed 100%);
+            padding: 1rem 1.5rem;
+            font-weight: 600;
+            color: white;
+        }
+
+        .visualization {
+            background: rgba(15, 23, 42, 0.9);
+            padding: 2rem;
+            border-radius: 1rem;
+            margin: 2rem 0;
+            border: 1px solid rgba(71, 85, 105, 0.3);
+            text-align: center;
+        }
+
+        canvas {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 0.5rem;
+            max-width: 100%;
+        }
+
+        .controls {
+            margin: 1rem 0;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        button {
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.75rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+        }
+
+        button.active {
+            background: linear-gradient(135deg, #059669 0%, #0d9488 100%);
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin: 1.5rem 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(15, 23, 42, 0.8);
+            border-radius: 1rem;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(71, 85, 105, 0.3);
+        }
+
+        th {
+            background: linear-gradient(135deg, #1e40af 0%, #7c3aed 100%);
+            font-weight: 600;
+            color: white;
+        }
+
+        .pros-cons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .pros, .cons {
+            background: rgba(15, 23, 42, 0.8);
+            padding: 1.5rem;
+            border-radius: 1rem;
+            border-left: 4px solid #10b981;
+        }
+
+        .cons {
+            border-left-color: #ef4444;
+        }
+
+        .pros h4 {
+            color: #10b981;
+            margin-bottom: 1rem;
+        }
+
+        .cons h4 {
+            color: #ef4444;
+            margin-bottom: 1rem;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            padding: 1.5rem;
+            border-radius: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        ul {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .algorithm-demo {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .demo-canvas {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .demo-info {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .pros-cons {
+                grid-template-columns: 1fr;
+            }
+            
+            .algorithm-demo {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>Understanding Gradient Descent</h1>
+            <p>Explore the optimization algorithms powering modern machine learning through interactive visualizations and mathematical insights.</p>
+        </div>
+
+        <div class="section">
+            <h2>1. What Is Gradient Descent?</h2>
+            <p>At its core, gradient descent seeks to minimize a differentiable function $J(\theta)$ (e.g., a loss function) by iteratively updating parameters $\theta$ in the direction of steepest descent:</p>
+            
+            <div class="math-block">
+                $$\theta \leftarrow \theta - \eta \,\nabla_\theta J(\theta)$$
+            </div>
+
+            <ul>
+                <li><strong>$\nabla_\theta J(\theta)$</strong> is the gradient: a vector of partial derivatives giving the slope of $J$ w.r.t. each parameter.</li>
+                <li><strong>$\eta$</strong> (learning rate) controls the step size.</li>
+            </ul>
+
+            <p>Each update "walks" the parameters downhill on the loss surface until (ideally) reaching a minimum.</p>
+
+            <div class="visualization">
+                <h3>Interactive Gradient Descent Visualization</h3>
+                <div class="algorithm-demo">
+                    <div class="demo-canvas">
+                        <canvas id="mainCanvas" width="400" height="300"></canvas>
+                    </div>
+                    <div class="demo-info">
+                        <div class="controls">
+                            <button onclick="startAnimation('sgd')" id="sgd-btn">SGD</button>
+                            <button onclick="startAnimation('momentum')" id="momentum-btn">Momentum</button>
+                            <button onclick="startAnimation('adam')" id="adam-btn">Adam</button>
+                            <button onclick="resetCanvas()">Reset</button>
+                        </div>
+                        <div id="algorithmInfo">
+                            <p>Select an algorithm to see how different optimizers navigate the loss landscape.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>2. Why Learning Rate Matters</h2>
+            <div class="pros-cons">
+                <div class="pros">
+                    <h4>Too Small Learning Rate</h4>
+                    <ul>
+                        <li>Painfully slow convergence</li>
+                        <li>Long training times</li>
+                        <li>May get stuck in plateaus</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h4>Too Large Learning Rate</h4>
+                    <ul>
+                        <li>Overshoots the minimum</li>
+                        <li>Can diverge completely</li>
+                        <li>Unstable training</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>3. Core Variants</h2>
+
+            <h3>3.1 Batch Gradient Descent</h3>
+            <p>Computes gradient over the <strong>entire</strong> training set each step.</p>
+            
+            <div class="pros-cons">
+                <div class="pros">
+                    <h4>Pros</h4>
+                    <ul>
+                        <li>Stable updates</li>
+                        <li>True gradient direction</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h4>Cons</h4>
+                    <ul>
+                        <li>Expensive for large datasets</li>
+                        <li>Memory-bound</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="code-block">
+                <div class="code-header">Batch Gradient Descent Implementation</div>
+                <pre><code class="language-python">for epoch in range(num_epochs):
+    grad = compute_gradient(data=X, labels=y, params=θ)
+    θ = θ - η * grad</code></pre>
+            </div>
+
+            <h3>3.2 Stochastic Gradient Descent (SGD)</h3>
+            <p>Uses <strong>one</strong> randomly sampled example per update.</p>
+            
+            <div class="pros-cons">
+                <div class="pros">
+                    <h4>Pros</h4>
+                    <ul>
+                        <li>Cheap updates</li>
+                        <li>Can escape shallow local minima</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h4>Cons</h4>
+                    <ul>
+                        <li>Noisy trajectory</li>
+                        <li>Zig-zag steps around optimum</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="code-block">
+                <div class="code-header">SGD Implementation</div>
+                <pre><code class="language-python">for epoch in range(num_epochs):
+    for xi, yi in shuffle(data, labels):
+        grad_i = compute_gradient(xi, yi, θ)
+        θ = θ - η * grad_i</code></pre>
+            </div>
+
+            <h3>3.3 Mini-Batch Gradient Descent</h3>
+            <p>Compromise: compute gradient over a small batch (e.g., 32–512 samples).</p>
+            
+            <div class="highlight-box">
+                <strong>Sweet Spot:</strong> Balances computational efficiency and stable updates while leveraging vectorized hardware.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>4. Momentum and Nesterov Accelerated Gradient</h2>
+
+            <h3>4.1 Momentum</h3>
+            <p>Adds an exponentially decaying "velocity" term $v$ to smooth updates:</p>
+
+            <div class="math-block">
+                $$\begin{aligned}
+                v &\leftarrow \gamma\,v + \eta\,\nabla_\theta J(\theta)\\
+                \theta &\leftarrow \theta - v
+                \end{aligned}$$
+            </div>
+
+            <p>$\gamma$ (e.g., 0.9) retains past velocity, helping traverse flat regions faster and dampen oscillations.</p>
+
+            <div class="code-block">
+                <div class="code-header">Momentum Implementation</div>
+                <pre><code class="language-python">class MomentumOptimizer:
+    def __init__(self, learning_rate=0.01, momentum=0.9):
+        self.lr = learning_rate
+        self.momentum = momentum
+        self.velocity = 0
+    
+    def update(self, params, gradients):
+        self.velocity = self.momentum * self.velocity + self.lr * gradients
+        params -= self.velocity
+        return params</code></pre>
+            </div>
+
+            <h3>4.2 Nesterov Accelerated Gradient (NAG)</h3>
+            <p>Looks ahead by computing the gradient at the "future" position:</p>
+
+            <div class="math-block">
+                $$\begin{aligned}
+                v &\leftarrow \gamma\,v + \eta\,\nabla_\theta J(\theta - \gamma\,v)\\
+                \theta &\leftarrow \theta - v
+                \end{aligned}$$
+            </div>
+
+            <div class="code-block">
+                <div class="code-header">Nesterov AGD Implementation</div>
+                <pre><code class="language-python">class NesterovOptimizer:
+    def __init__(self, learning_rate=0.01, momentum=0.9):
+        self.lr = learning_rate
+        self.momentum = momentum
+        self.velocity = 0
+    
+    def update(self, params, gradient_fn):
+        # Look ahead
+        future_params = params - self.momentum * self.velocity
+        gradients = gradient_fn(future_params)
+        
+        self.velocity = self.momentum * self.velocity + self.lr * gradients
+        params -= self.velocity
+        return params</code></pre>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>5. Adaptive Learning-Rate Methods</h2>
+            
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Variant</th>
+                            <th>Key Idea</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>AdaGrad</strong></td>
+                            <td>Accumulates squared gradients to shrink η over time.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>RMSProp</strong></td>
+                            <td>Uses exponential decay on squared gradients to avoid AdaGrad's rapid decay.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Adam</strong></td>
+                            <td>Combines momentum (first moment) and RMSProp (second moment).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>AdaDelta</strong></td>
+                            <td>Extension of RMSProp that removes the need for a global η.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>5.1 Adam (Adaptive Moment Estimation)</h3>
+            <p>The most popular adaptive optimizer combining momentum and adaptive learning rates:</p>
+
+            <div class="math-block">
+                $$\begin{aligned}
+                m_t &= \beta_1\,m_{t-1} + (1-\beta_1)\,g_t \\
+                v_t &= \beta_2\,v_{t-1} + (1-\beta_2)\,g_t^2 \\
+                \hat m_t &= \frac{m_t}{1 - \beta_1^t}, \quad
+                \hat v_t = \frac{v_t}{1 - \beta_2^t} \\
+                \theta &\leftarrow \theta - \eta\,\frac{\hat m_t}{\sqrt{\hat v_t} + \epsilon}
+                \end{aligned}$$
+            </div>
+
+            <p>Default parameters: $\beta_1\approx0.9$, $\beta_2\approx0.999$, $\epsilon\approx10^{-8}$</p>
+
+            <div class="code-block">
+                <div class="code-header">Adam Implementation</div>
+                <pre><code class="language-python">class AdamOptimizer:
+    def __init__(self, learning_rate=0.001, beta1=0.9, beta2=0.999, epsilon=1e-8):
+        self.lr = learning_rate
+        self.beta1 = beta1
+        self.beta2 = beta2
+        self.epsilon = epsilon
+        self.m = 0  # First moment
+        self.v = 0  # Second moment
+        self.t = 0  # Time step
+    
+    def update(self, params, gradients):
+        self.t += 1
+        
+        # Update biased first moment estimate
+        self.m = self.beta1 * self.m + (1 - self.beta1) * gradients
+        
+        # Update biased second raw moment estimate
+        self.v = self.beta2 * self.v + (1 - self.beta2) * (gradients ** 2)
+        
+        # Compute bias-corrected first moment estimate
+        m_hat = self.m / (1 - self.beta1 ** self.t)
+        
+        # Compute bias-corrected second raw moment estimate
+        v_hat = self.v / (1 - self.beta2 ** self.t)
+        
+        # Update parameters
+        params -= self.lr * m_hat / (np.sqrt(v_hat) + self.epsilon)
+        return params</code></pre>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>6. Choosing the Right Optimizer</h2>
+            
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Scenario</th>
+                            <th>Recommended</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Small dataset / convex problems</td>
+                            <td>Batch GD or SGD</td>
+                        </tr>
+                        <tr>
+                            <td>Deep neural networks</td>
+                            <td>Adam or RMSProp</td>
+                        </tr>
+                        <tr>
+                            <td>Very large datasets</td>
+                            <td>Mini-batch SGD w/ momentum</td>
+                        </tr>
+                        <tr>
+                            <td>Memory-constrained / online learning</td>
+                            <td>SGD</td>
+                        </tr>
+                        <tr>
+                            <td>Need fine-tuned generalization</td>
+                            <td>SGD w/ momentum (often matches Adam)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="highlight-box">
+                <strong>Tip:</strong> Monitor training and validation loss curves—no optimizer can replace good learning-rate scheduling, early stopping, or regularization.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>7. Practical Tips</h2>
+            
+            <div class="highlight-box">
+                <h3>Essential Optimization Strategies</h3>
+                <ul>
+                    <li><strong>Learning-Rate Scheduling:</strong> Step decay, cosine annealing, or warm restarts can boost performance.</li>
+                    <li><strong>Gradient Clipping:</strong> Especially in RNNs, to prevent exploding gradients.</li>
+                    <li><strong>Weight Decay:</strong> Equivalent to L2 regularization; often applied as a separate term in the optimizer.</li>
+                    <li><strong>Hyperparameter Search:</strong> Even Adam needs η tuning; try grid/random search or automated schedulers.</li>
+                </ul>
+            </div>
+
+            <div class="code-block">
+                <div class="code-header">Learning Rate Scheduling Example</div>
+                <pre><code class="language-python">import torch.optim as optim
+from torch.optim.lr_scheduler import StepLR, CosineAnnealingLR
+
+# Initialize optimizer
+optimizer = optim.Adam(model.parameters(), lr=0.001)
+
+# Step decay scheduler
+scheduler = StepLR(optimizer, step_size=30, gamma=0.1)
+
+# Cosine annealing scheduler
+# scheduler = CosineAnnealingLR(optimizer, T_max=100)
+
+for epoch in range(num_epochs):
+    train_one_epoch(model, optimizer)
+    scheduler.step()  # Update learning rate</code></pre>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>8. Conclusion</h2>
+            <p>Gradient descent started as a simple, intuitive idea—and through decades of research has evolved into a family of powerful optimizers. Understanding their mechanics helps you make informed choices for your models, saving training time and improving convergence.</p>
+
+            <div class="highlight-box">
+                <h3>Further Reading & Resources</h3>
+                <ul>
+                    <li>Ian Goodfellow et al., <em>Deep Learning</em> (2016): Chapter on optimization.</li>
+                    <li>Sebastian Ruder's blog: "An overview of gradient descent optimization algorithms."</li>
+                    <li>TensorFlow/PyTorch docs for built-in optimizer implementations.</li>
+                </ul>
+            </div>
+
+            <p style="text-align: center; font-size: 1.2rem; font-weight: 600; color: #60a5fa; margin-top: 2rem;">
+                Happy optimizing! 🚀
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Canvas setup
+        const canvas = document.getElementById('mainCanvas');
+        const ctx = canvas.getContext('2d');
+        
+        // Animation variables
+        let animationId;
+        let currentAlgorithm = null;
+        let step = 0;
+        let position = { x: 50, y: 250 };
+        let velocity = { x: 0, y: 0 };
+        let momentum = { x: 0, y: 0 };
+        let adamM = { x: 0, y: 0 };
+        let adamV = { x: 0, y: 0 };
+        let adamT = 0;
+        
+        // Optimization parameters
+        const params = {
+            learningRate: 0.05,
+            momentumBeta: 0.9,
+            adamBeta1: 0.9,
+            adamBeta2: 0.999,
+            adamEpsilon: 1e-8
+        };
+
+        // Loss function (simple quadratic with minimum at center)
+        function getLoss(x, y) {
+            const centerX = canvas.width / 2;
+            const centerY = canvas.height / 2;
+            return ((x - centerX) ** 2 + (y - centerY) ** 2) / 10000;
+        }
+
+        function getGradient(x, y) {
+            const centerX = canvas.width / 2;
+            const centerY = canvas.height / 2;
+            return {
+                x: 2 * (x - centerX) / 10000,
+                y: 2 * (y - centerY) / 10000
+            };
+        }
+
+        function drawLossLandscape() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            // Draw contour lines
+            const centerX = canvas.width / 2;
+            const centerY = canvas.height / 2;
+            
+            for (let r = 20; r < 200; r += 30) {
+                ctx.beginPath();
+                ctx.arc(centerX, centerY, r, 0, 2 * Math.PI);
+                ctx.strokeStyle = 'rgba(100, 116, 139, 0.3)';
+                ctx.stroke();
+            }
+            
+            // Draw global minimum
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, 8, 0, 2 * Math.PI);
+            ctx.fillStyle = '#ef4444';
+            ctx.fill();
+            
+            // Add labels
+            ctx.fillStyle = '#e2e8f0';
+            ctx.font = '14px Inter';
+            ctx.fillText('Global Minimum', centerX - 50, centerY - 20);
+        }
+
+        function drawParticle() {
+            ctx.beginPath();
+            ctx.arc(position.x, position.y, 6, 0, 2 * Math.PI);
+            ctx.fillStyle = '#60a5fa';
+            ctx.fill();
+            ctx.strokeStyle = '#1e40af';
+            ctx.lineWidth = 2;
+            ctx.stroke();
+            
+            // Draw trail
+            ctx.beginPath();
+            ctx.arc(position.x, position.y, 8, 0, 2 * Math.PI);
+            ctx.fillStyle = 'rgba(96, 165, 250, 0.3)';
+            ctx.fill();
+        }
+
+        function updateSGD() {
+            const grad = getGradient(position.x, position.y);
+            position.x -= params.learningRate * grad.x * 2000;
+            position.y -= params.learningRate * grad.y * 2000;
+        }
+
+        function updateMomentum() {
+            const grad = getGradient(position.x, position.y);
+            
+            momentum.x = params.momentumBeta * momentum.x + params.learningRate * grad.x * 2000;
+            momentum.y = params.momentumBeta * momentum.y + params.learningRate * grad.y * 2000;
+            
+            position.x -= momentum.x;
+            position.y -= momentum.y;
+        }
+
+        function updateAdam() {
+            const grad = getGradient(position.x, position.y);
+            adamT++;
+            
+            // Scale gradients for visualization
+            const gradX = grad.x * 2000;
+            const gradY = grad.y * 2000;
+            
+            // Update biased first moment estimate
+            adamM.x = params.adamBeta1 * adamM.x + (1 - params.adamBeta1) * gradX;
+            adamM.y = params.adamBeta1 * adamM.y + (1 - params.adamBeta1) * gradY;
+            
+            // Update biased second raw moment estimate
+            adamV.x = params.adamBeta2 * adamV.x + (1 - params.adamBeta2) * (gradX ** 2);
+            adamV.y = params.adamBeta2 * adamV.y + (1 - params.adamBeta2) * (gradY ** 2);
+            
+            // Compute bias-corrected estimates
+            const mHatX = adamM.x / (1 - params.adamBeta1 ** adamT);
+            const mHatY = adamM.y / (1 - params.adamBeta1 ** adamT);
+            const vHatX = adamV.x / (1 - params.adamBeta2 ** adamT);
+            const vHatY = adamV.y / (1 - params.adamBeta2 ** adamT);
+            
+            // Update parameters with larger learning rate for Adam
+            const adamLR = 0.1;
+            position.x -= adamLR * mHatX / (Math.sqrt(vHatX) + params.adamEpsilon);
+            position.y -= adamLR * mHatY / (Math.sqrt(vHatY) + params.adamEpsilon);
+        }
+
+        function animate() {
+            step++;
+            
+            // Update position based on algorithm
+            switch(currentAlgorithm) {
+                case 'sgd':
+                    updateSGD();
+                    break;
+                case 'momentum':
+                    updateMomentum();
+                    break;
+                case 'adam':
+                    updateAdam();
+                    break;
+            }
+            
+            // Redraw
+            drawLossLandscape();
+            drawParticle();
+            
+            // Continue animation if not converged
+            const centerX = canvas.width / 2;
+            const centerY = canvas.height / 2;
+            const distance = Math.sqrt((position.x - centerX) ** 2 + (position.y - centerY) ** 2);
+            
+            if (distance > 5 && step < 1000) {
+                animationId = requestAnimationFrame(animate);
+            }
+        }
+
+        function startAnimation(algorithm) {
+            // Reset animation
+            if (animationId) {
+                cancelAnimationFrame(animationId);
+            }
+            
+            // Reset state
+            step = 0;
+            position = { x: 50, y: 250 };
+            momentum = { x: 0, y: 0 };
+            adamM = { x: 0, y: 0 };
+            adamV = { x: 0, y: 0 };
+            adamT = 0;
+            
+            currentAlgorithm = algorithm;
+            
+            // Update button states
+            document.querySelectorAll('.controls button').forEach(btn => btn.classList.remove('active'));
+            document.getElementById(algorithm + '-btn').classList.add('active');
+            
+            // Update info
+            const info = document.getElementById('algorithmInfo');
+            switch(algorithm) {
+                case 'sgd':
+                    info.innerHTML = `
+                        <h4>Stochastic Gradient Descent</h4>
+                        <p>Basic gradient descent with constant learning rate. Notice the direct path but potential oscillations.</p>
+                        <p><strong>Update:</strong> θ ← θ - η∇J(θ)</p>
+                    `;
+                    break;
+                case 'momentum':
+                    info.innerHTML = `
+                        <h4>Momentum</h4>
+                        <p>Accumulates velocity to smooth updates and accelerate convergence. See how it builds momentum in consistent directions.</p>
+                        <p><strong>Update:</strong> v ← γv + η∇J(θ), θ ← θ - v</p>
+                    `;
+                    break;
+                case 'adam':
+                    info.innerHTML = `
+                        <h4>Adam</h4>
+                        <p>Adaptive learning rates with momentum. Notice the adaptive step sizes and smooth convergence.</p>
+                        <p><strong>Update:</strong> Combines first and second moments with bias correction</p>
+                    `;
+                    break;
+            }
+            
+            // Start animation
+            animate();
+        }
+
+        function resetCanvas() {
+            if (animationId) {
+                cancelAnimationFrame(animationId);
+            }
+            currentAlgorithm = null;
+            step = 0;
+            position = { x: 50, y: 250 };
+            momentum = { x: 0, y: 0 };
+            adamM = { x: 0, y: 0 };
+            adamV = { x: 0, y: 0 };
+            adamT = 0;
+            
+            document.querySelectorAll('.controls button').forEach(btn => btn.classList.remove('active'));
+            document.getElementById('algorithmInfo').innerHTML = '<p>Select an algorithm to see how different optimizers navigate the loss landscape.</p>';
+            
+            drawLossLandscape();
+        }
+
+        // Initialize canvas
+        drawLossLandscape();
+
+        // MathJax configuration
+        window.MathJax = {
+            tex: {
+                inlineMath: [[', '], ['\\(', '\\)']],
+                displayMath: [['$', '$'], ['\\[', '\\]']]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+</body>
+</html>
