@@ -13,7 +13,7 @@ redirect_from:
 
 [Corover](https://corover.ai/) | Machine Learning and AI Developer Intern
 =====
-Industrial Intern | Banglore, Karnataka | _May '24 - Current_
+Industrial Intern | Banglore, Karnataka | _May '24 - July '24_
 
 
 ### Key Responsibilities and Achievements
