@@ -20,9 +20,9 @@ I am currently a final-year student at one of the most prestigious technological
 
 Recent News:
 -----
-**15th May 2025** : I started my research Internship at [Purdue University](https://www.purdue.edu/). [Know more](https://Nihar1402-iit.github.io/Interns/).
+**15th May 2025** : I started my research Internship at [Purdue University](https://www.purdue.edu/). [Know more](https://nihar1402-iit.github.io//interns/).
 
-**14th May 2024** : I started my Internship at [Corover](https://corover.ai/)  as an AI-ML developer. [Know more](https://Nihar1402-iit.github.io/Interns/).
+**14th May 2024** : I started my Internship at [Corover](https://corover.ai/)  as an AI-ML developer. [Know more](https://nihar1402-iit.github.io//interns/).
 
 
 <hr>
