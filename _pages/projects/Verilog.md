@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 -----
 
-## RNN_Self-Attention_Sine_Prediction
+## Mini Processor
 _Feb, 2024 - Mar, 2024_
 (Advisor – Prof. Joycee Mekie, IIT Gandhinagar) | [Project Link](https://github.com/Nihar1402-iit/Verilog)
 
