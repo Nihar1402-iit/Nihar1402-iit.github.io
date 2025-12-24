@@ -19,11 +19,11 @@ redirect_from:
 
 - **Implemented the SAUCF (Secure, Natural-Language-Guided UAS Control Framework)**, integrating natural language processing, mission planning, security validation, and human-in-the-loop supervision for safe and interpretable UAV operation.
 
-  🔗 **Paper**:  
-  https://www.mdpi.com/2504-446X/9/12/860  
+ 🔗 **Paper**:  
+  [SAUCF: A Framework for Secure, Natural-Language-Guided UAS Control](https://www.mdpi.com/2504-446X/9/12/860)
 
   🔗 **Project Page**:  
-  https://nihar1402-iit.github.io/SAUCF-Project-Page/
+  [SAUCF Project Website](https://nihar1402-iit.github.io/SAUCF-Project-Page/)
 
 - **Integrated DJI Matrice 300 RTK with the DJI Onboard SDK (OSDK)** using C++ for autonomous waypoint navigation, mission pausing, resumption, and return-to-home functionality with real-time telemetry monitoring.
 
