@@ -32,7 +32,7 @@ Education:
 
 | Degree | Specialization | Institute | Year | CPI/% |
 | --- | --- | --- | --- | --- | 
-| B.Tech. | _Electrical Engineering_| IIT Gandhinagar| 2022-Present| 8.80/10| 
+| B.Tech. | _Electrical Engineering_| IIT Gandhinagar| 2022-Present| 8.83/10| 
 | Class XII  | _Physics, Chemistry, Maths_| Prakash College| 2021-2022 | 87.17 %| 
 | Class X | | Ryan International School, Mumbai | 2019-2020| 97.6 %| 
 
