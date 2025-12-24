@@ -10,6 +10,32 @@ redirect_from:
 <!-- {% include base_path %} -->
 -----
 -----
+## [Purdue University](https://www.purdue.edu/) | Research Intern  
+**Prof. Dharmendra Saraswat, Purdue University** | _May 2025 – July 2025_
+
+### Key Responsibilities and Achievements
+
+- **Conceived and developed an LLM-orchestrated mission execution framework for Unmanned Aerial Vehicles (UAVs)**, enabling translation of high-level natural language instructions into structured, executable waypoint-based flight plans.
+
+- **Implemented the SAUCF (Secure, Natural-Language-Guided UAS Control Framework)**, integrating natural language processing, mission planning, security validation, and human-in-the-loop supervision for safe and interpretable UAV operation.
+
+  🔗 **Paper**:  
+  https://www.mdpi.com/2504-446X/9/12/860  
+
+  🔗 **Project Page**:  
+  https://nihar1402-iit.github.io/SAUCF-Project-Page/
+
+- **Integrated DJI Matrice 300 RTK with the DJI Onboard SDK (OSDK)** using C++ for autonomous waypoint navigation, mission pausing, resumption, and return-to-home functionality with real-time telemetry monitoring.
+
+- **Designed behavior tree–based mission planning**, mapping LLM-generated high-level intents into modular, robust, and interpretable low-level drone API calls to ensure safe execution and fault tolerance.
+
+- **Developed a secure, voice-interactive control interface** by integrating Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) pipelines, enabling real-time verbal mission input and system feedback.
+
+- **Implemented security and safety mechanisms**, including operator authentication, command validation, and mission approval stages to prevent unsafe or unauthorized UAV actions.
+
+- **Conducted experimental validation in simulation and real-world agricultural scenarios**, evaluating mission planning latency, execution accuracy, and system robustness under varying operational conditions.
+
+- **Co-authored a peer-reviewed journal publication**, contributing to system architecture design, experimental analysis, result interpretation, and manuscript preparation.
 
 [Corover](https://corover.ai/) | Machine Learning and AI Developer Intern
 =====
