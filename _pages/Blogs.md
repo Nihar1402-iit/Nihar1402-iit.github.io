@@ -59,7 +59,7 @@ redirect_from:
 <div class="projects-container">
   <div class="project">
     <a href="/_pages/Assignment1_ES666_The_Chamber_of_Singular_Truths_22110237.html">
-      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
+      <img src="https://github.com/user-attachments/assets/05df42ad-3d2c-4cdf-b6c6-827c5153b2bb" alt="Grad_desc">
     </a>
     <p>Singularities and Image Structure: Foundations of Visual Signal Representation</p>
 </div>
