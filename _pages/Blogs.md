@@ -122,14 +122,6 @@ redirect_from:
   
 <div class="projects-container">
   <div class="project">
-    <a href="/_pages/Grad_desc.html">
-      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
-    </a>
-    <p>Understanding Gradient Descent and Its Variants</p>
-  </div>
-
-<div class="projects-container">
-  <div class="project">
     <a href="/_pages/Shot_Prompting.html">
       <img src="https://github.com/user-attachments/assets/e90f183e-0004-4d03-9159-e99b7e73911c" alt="S_P">
     </a>
