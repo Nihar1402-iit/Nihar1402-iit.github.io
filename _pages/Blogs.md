@@ -128,6 +128,13 @@ redirect_from:
   </div>
 
   <div class="project">
+    <a href="/_pages/22110237_Assignment3_ES666_trimmed_6MB.html">
+      <img src="https://github.com/user-attachments/assets/e90f183e-0004-4d03-9159-e99b7e73911c" alt="">
+    </a>
+    <p>Shot Prompting (Explained on Amazon ML Challenge 2024 Dataset)</p>
+  </div>
+
+  <div class="project">
     <a href="/_pages/Shot_Prompting.html">
       <img src="https://github.com/user-attachments/assets/e90f183e-0004-4d03-9159-e99b7e73911c" alt="">
     </a>
