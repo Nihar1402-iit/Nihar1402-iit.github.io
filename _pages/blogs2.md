@@ -1,3 +1,61 @@
+---
+layout: archive
+title: "blogs2"
+permalink: /blogs2/
+author_profile: true
+redirect_from:
+  - /projects
+---
+
+{% include base_path %}
+
+<style>
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px; /* Adjust the gap between projects */
+}
+
+.project {
+  width: 30%; /* Adjust width so that 3 blogs fit in one row */
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.navigation {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.navigation a {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 6px 10px; /* Adjusted padding */
+  background-color: #ddd; /* Grey background */
+  color: #333; /* Dark text color */
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.navigation a:hover {
+  background-color: #bbb; /* Darker grey on hover */
+}
+
+.navigation .arrow {
+  font-size: 18px; /* Adjusted font size */
+  vertical-align: middle;
+}
+</style>
  <div class="project">
     <a href="/_pages/UPI_voice.html">
       <img src="https://github.com/user-attachments/assets/789a699f-c4f6-40cd-ae20-8ac0bc0dfb5b" alt="upi_VOICE">
