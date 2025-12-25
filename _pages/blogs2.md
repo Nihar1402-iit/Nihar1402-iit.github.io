@@ -83,7 +83,15 @@ redirect_from:
     </a>
     <p>Recurrent Neural Networks</p>
   </div>
-
+  
+ <div class="projects-container">
+  <div class="project">
+    <a href="/_pages/Grad_desc.html">
+      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
+    </a>
+    <p>Understanding Gradient Descent and Its Variants</p>
+  </div>
+   
   <div class="project">
     <a href="/_pages/dlib_face_recognition.html">
       <img src="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/assets/117573996/288685f4-bff4-40ed-a303-df0b43067314" alt="SVM">
