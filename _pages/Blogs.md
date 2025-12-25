@@ -61,7 +61,7 @@ redirect_from:
     <a href="/_pages/Assignment1_ES666_The_Chamber_of_Singular_Truths_22110237.html">
       <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
     </a>
-    <p>Understanding Gradient Descent and Its Variants</p>
+    <p>Singularities and Image Structure: Foundations of Visual Signal Representation</p>
 </div>
   
 <div class="projects-container">
@@ -69,7 +69,7 @@ redirect_from:
     <a href="/_pages/22110237_ES666_Assignment_4_The_Flux_of_Motion.html">
       <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
     </a>
-    <p>Understanding Gradient Descent and Its Variants</p>
+    <p>Motion Estimation and Temporal Dynamics in Visual Signals</p>
 </div>
   
 <div class="projects-container">
@@ -77,7 +77,7 @@ redirect_from:
     <a href="/_pages/22110237_D_Matrix_Methods.html">
       <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
     </a>
-    <p>Understanding Gradient Descent and Its Variants</p>
+    <p>Matrix Decompositions, Subspaces, and Dimensionality Reduction</p>
 </div>
   
 <div class="projects-container">
@@ -85,7 +85,7 @@ redirect_from:
     <a href="/_pages/22110237_C_Matrix_Methods.html">
       <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
     </a>
-    <p>Understanding Gradient Descent and Its Variants</p>
+    <p>Linear Transformations, Eigenanalysis, and Matrix Representations</p>
 </div>
   
 <div class="projects-container">
@@ -93,7 +93,7 @@ redirect_from:
     <a href="/_pages/ES670_Assignment_A_Vectors_and_Clustering.html">
       <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
     </a>
-    <p>Understanding Gradient Descent and Its Variants</p>
+    <p>Vector Spaces, Distance Metrics, and Clustering in High-Dimensional Data</p>
 </div>
 
 <div class="projects-container">
@@ -101,7 +101,7 @@ redirect_from:
     <a href="/_pages/Mosaic_of_Whispers_Blog.html">
       <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
     </a>
-    <p>Understanding Gradient Descent and Its Variants</p>
+    <p>Frequency Analysis and Spatial Filtering in Images</p>
 </div>
   
 <div class="projects-container">
