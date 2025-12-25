@@ -67,7 +67,7 @@ redirect_from:
 <div class="projects-container">
   <div class="project">
     <a href="/_pages/22110237_ES666_Assignment_4_The_Flux_of_Motion.html">
-      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
+      <img src="https://github.com/user-attachments/assets/acad45ce-7e11-456e-8820-47401fe3fab1" alt="Grad_desc">
     </a>
     <p>Motion Estimation and Temporal Dynamics in Visual Signals</p>
 </div>
