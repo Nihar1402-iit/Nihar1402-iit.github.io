@@ -75,7 +75,7 @@ redirect_from:
 <div class="projects-container">
   <div class="project">
     <a href="/_pages/22110237_D_Matrix_Methods.html">
-      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
+      <img src="https://github.com/user-attachments/assets/4becdbfd-4c34-4831-aefb-81e850e8bc12" alt="Grad_desc">
     </a>
     <p>Matrix Decompositions, Subspaces, and Dimensionality Reduction</p>
 </div>
@@ -83,7 +83,7 @@ redirect_from:
 <div class="projects-container">
   <div class="project">
     <a href="/_pages/22110237_C_Matrix_Methods.html">
-      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
+      <img src="https://github.com/user-attachments/assets/25e822bd-8c67-41fa-83a9-42a6d6e2f057" alt="Grad_desc">
     </a>
     <p>Linear Transformations, Eigenanalysis, and Matrix Representations</p>
 </div>
@@ -91,7 +91,7 @@ redirect_from:
 <div class="projects-container">
   <div class="project">
     <a href="/_pages/ES670_Assignment_A_Vectors_and_Clustering.html">
-      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
+      <img src="https://github.com/user-attachments/assets/9c772baf-9cf9-4dbe-923d-c799b38a321f" alt="Grad_desc">
     </a>
     <p>Vector Spaces, Distance Metrics, and Clustering in High-Dimensional Data</p>
 </div>
@@ -99,7 +99,7 @@ redirect_from:
 <div class="projects-container">
   <div class="project">
     <a href="/_pages/Mosaic_of_Whispers_Blog.html">
-      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
+      <img src="https://github.com/user-attachments/assets/b8b10960-08b0-42e5-aea1-8575d9ac16a3" alt="Grad_desc">
     </a>
     <p>Frequency Analysis and Spatial Filtering in Images</p>
 </div>
