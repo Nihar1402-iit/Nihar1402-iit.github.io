@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "blogs2"
+title: "Blogs"
 permalink: /blogs2/
 author_profile: true
 redirect_from:
