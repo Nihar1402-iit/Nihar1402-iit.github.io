@@ -25,10 +25,16 @@ redirect_from:
 
 .project img {
   width: 100%;
-  height: auto;
+  height: 200px;          /* ✅ fixed height */
+  object-fit: cover;      /* ✅ uniform crop */
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project p {
+  margin-top: 10px;
+  font-size: 0.95rem;
 }
 
 /* Responsive: 2 per row on tablets */
@@ -47,13 +53,13 @@ redirect_from:
 
 .navigation {
   text-align: center;
-  margin-top: 40px;
+  margin: 50px 0 20px 0;
 }
 
 .navigation a {
   display: inline-block;
-  margin: 0 5px;
-  padding: 6px 10px;
+  margin: 0 6px;
+  padding: 6px 12px;
   background-color: #ddd;
   color: #333;
   text-decoration: none;
@@ -140,5 +146,4 @@ redirect_from:
 <div class="navigation">
   <a href="/blogs">1</a>
   <a href="/blogs2">2</a>
-  <a href="/blogs2" class="arrow">Next &gt;</a>
 </div>
