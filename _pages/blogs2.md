@@ -144,6 +144,7 @@ redirect_from:
 </div>
 
 <div class="navigation">
+  <a href="/blogs" class="arrow">Previous &gt;</a>
   <a href="/blogs">1</a>
   <a href="/blogs2">2</a>
 </div>
