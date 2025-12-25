@@ -111,7 +111,7 @@ redirect_from:
     </a>
     <p>SVM</p>
   </div>
-</div>
+
 <div class="navigation">
   <a href="/blogs">1</a>
   <a href="/blogs2">2</a>
