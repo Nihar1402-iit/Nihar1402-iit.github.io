@@ -56,7 +56,70 @@ redirect_from:
   vertical-align: middle;
 }
 </style>
+<div class="projects-container">
+  <div class="project">
+    <a href="/_pages/Assignment1_ES666_The_Chamber_of_Singular_Truths_22110237.html">
+      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
+    </a>
+    <p>Understanding Gradient Descent and Its Variants</p>
+</div>
+  
+<div class="projects-container">
+  <div class="project">
+    <a href="/_pages/22110237_ES666_Assignment_4_The_Flux_of_Motion.html">
+      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
+    </a>
+    <p>Understanding Gradient Descent and Its Variants</p>
+</div>
+  
+<div class="projects-container">
+  <div class="project">
+    <a href="/_pages/22110237_D_Matrix_Methods.html">
+      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
+    </a>
+    <p>Understanding Gradient Descent and Its Variants</p>
+</div>
+  
+<div class="projects-container">
+  <div class="project">
+    <a href="/_pages/22110237_C_Matrix_Methods.html">
+      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
+    </a>
+    <p>Understanding Gradient Descent and Its Variants</p>
+</div>
+  
+<div class="projects-container">
+  <div class="project">
+    <a href="/_pages/ES670_Assignment_A_Vectors_and_Clustering.html">
+      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
+    </a>
+    <p>Understanding Gradient Descent and Its Variants</p>
+</div>
 
+<div class="projects-container">
+  <div class="project">
+    <a href="/_pages/Mosaic_of_Whispers_Blog.html">
+      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
+    </a>
+    <p>Understanding Gradient Descent and Its Variants</p>
+</div>
+  
+<div class="projects-container">
+  <div class="project">
+    <a href="/_pages/Assignment_2_22110237.html">
+      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
+    </a>
+    <p>Understanding Gradient Descent and Its Variants</p>
+</div>
+   
+<div class="projects-container">
+  <div class="project">
+    <a href="/_pages/22110237_C_Matrix_Methods.html">
+      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
+    </a>
+    <p>Understanding Gradient Descent and Its Variants</p>
+  </div>
+  
 <div class="projects-container">
   <div class="project">
     <a href="/_pages/Grad_desc.html">
