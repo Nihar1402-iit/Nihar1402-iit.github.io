@@ -129,9 +129,9 @@ redirect_from:
 
   <div class="project">
     <a href="/_pages/22110237_Assignment3_ES666_trimmed_6MB.html">
-      <img src="https://github.com/user-attachments/assets/e90f183e-0004-4d03-9159-e99b7e73911c" alt="">
+      <img src="https://github.com/user-attachments/assets/0c0344f8-5536-424e-a6a3-bacad49a56e7" alt="">
     </a>
-    <p>Shot Prompting (Explained on Amazon ML Challenge 2024 Dataset)</p>
+    <p>Foundations of Image Representation and Analysis: Gradients, Frequency-Domain Methods, Motion, and Image Stitching</p>
   </div>
 
   <div class="project">
