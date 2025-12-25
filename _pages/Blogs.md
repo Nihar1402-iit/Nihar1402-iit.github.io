@@ -107,7 +107,7 @@ redirect_from:
 <div class="projects-container">
   <div class="project">
     <a href="/_pages/Assignment_2_22110237.html">
-      <img src="https://github.com/user-attachments/assets/8e5a954a-fb03-484d-b9fd-16cf6e36c1d9" alt="Grad_desc">
+      <img src="https://github.com/user-attachments/assets/f25860ae-a6b6-48bd-9c7d-1c25bf862357" alt="Grad_desc">
     </a>
     <p>Understanding Gradient Descent and Its Variants</p>
 </div>
