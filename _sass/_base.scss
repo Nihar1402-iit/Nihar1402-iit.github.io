@@ -11,6 +11,7 @@ body {
   margin: 0;
   padding: $masthead-height 0 0;
   padding-bottom: 9em;
+  background-color: $background-color;
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
@@ -19,11 +20,6 @@ body {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
-
-  @media (prefers-color-scheme: dark) {
-    background: $background-color;
-    color: $body-color;
-  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
+  color: $heading-color;
 }
 
 h1 {
@@ -117,11 +114,19 @@ blockquote {
 /* links */
 
 a {
+  color: $link-color;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: $link-color-hover;
+    text-shadow: 0 0 8px rgba(102, 252, 241, 0.4);
+  }
+
   &:focus {
     @extend %tab-focus;
   }
 
-  &:hover,
   &:active {
     outline: 0;
   }

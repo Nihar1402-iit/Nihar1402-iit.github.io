@@ -73,10 +73,16 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(102, 252, 241, 0.3);
+    color: $primary-color;
+    transition: all 0.3s ease;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
+      background: rgba(102, 252, 241, 0.1);
+      border-bottom-color: $primary-color;
+      text-shadow: 0 0 8px rgba(102, 252, 241, 0.4);
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -398,4 +404,30 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+}
+
+/* Custom Intro Banner for Portfolio */
+.intro-banner {
+  background: linear-gradient(135deg, rgba(31, 40, 51, 0.8), rgba(11, 12, 16, 0.9));
+  border: 1px solid rgba(102, 252, 241, 0.2);
+  border-radius: 12px;
+  padding: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(102, 252, 241, 0.15);
+    border-color: rgba(102, 252, 241, 0.5);
+  }
+
+  h3 {
+    margin: 0;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(102, 252, 241, 0.3);
+  }
 }

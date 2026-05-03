@@ -7,49 +7,44 @@ redirect_from:
   - /about.html
 ---
 
-<!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
+<div class="intro-banner" markdown="1">
+### 🚀 Computer Vision | 🧠 Machine Learning | 🩺 Deep Learning in Medical Imaging
+</div>
 
-About Me:
------
-I am currently a final-year student at one of the most prestigious technological institutes, **Indian Institute of Technology Gandhinagar**, majoring in Electrical Engineering and having a minor in Computer Science and Engineering.
+Welcome to my portfolio! I am currently a final-year student at the **Indian Institute of Technology Gandhinagar**, majoring in Electrical Engineering with a minor in Computer Science and Engineering. 
 
--	I am currently mastering my skills in  Machine Learning to solve real-life problems. I like Mathematics.
-- I am also exploring fields of Data Science, Digital Signal Processing and Hardware Implementation within Computer Architecture.
--	Fun fact: I love delving into various domains of Computer Science, but I am too lazy to find a balance between them.
-<hr>
+My primary research and development focus lies at the intersection of **Deep Learning** and **Medical Imaging**. I am passionate about leveraging advanced **Computer Vision** and **Machine Learning** techniques to solve complex, real-world healthcare challenges and build next-generation intelligent systems.
 
-Recent News:
------
-**15th May 2025** : I started my research Internship at [Purdue University](https://www.purdue.edu/). [Know more](https://nihar1402-iit.github.io//interns/).
+---
 
-**14th May 2024** : I started my Internship at [Corover](https://corover.ai/)  as an AI-ML developer. [Know more](https://nihar1402-iit.github.io//interns/).
+### 🌟 Core Competencies
+- **Deep Learning in Medical Imaging:** Developing robust architectures for disease detection, segmentation, and anomaly detection in clinical datasets.
+- **Computer Vision:** Image processing, object detection, and visual representation learning.
+- **Machine Learning:** Predictive modeling, data science, and end-to-end ML pipeline optimization.
 
+---
 
-<hr>
+### 📰 Recent News
+- **May 15, 2025** : Started a research Internship at [Purdue University](https://www.purdue.edu/). [Know more](https://nihar1402-iit.github.io//interns/).
+- **May 14, 2024** : Started an Internship at [Corover](https://corover.ai/) as an AI-ML developer. [Know more](https://nihar1402-iit.github.io//interns/).
 
-Education:
------
+---
+
+### 🎓 Education
 
 | Degree | Specialization | Institute | Year | CPI/% |
 | --- | --- | --- | --- | --- | 
-| B.Tech. | _Electrical Engineering_| IIT Gandhinagar| 2022-Present| 8.83/10| 
-| Class XII  | _Physics, Chemistry, Maths_| Prakash College| 2021-2022 | 87.17 %| 
-| Class X | | Ryan International School, Mumbai | 2019-2020| 97.6 %| 
+| B.Tech. | _Electrical Engineering_ | IIT Gandhinagar | 2022-Present | 8.83/10 | 
+| Class XII | _Physics, Chemistry, Maths_ | Prakash College | 2021-2022 | 87.17 % | 
+| Class X | | Ryan International School, Mumbai | 2019-2020 | 97.6 % | 
 
-<hr>
+---
 
-My Background:
--------
+### 📬 Get in Touch
+Interested in collaborating on Computer Vision or Medical Imaging research? Reach out to me!
 
-- Born in **Ahmedabad**, Gujarat, I spent the first 19 years of my life there with my parents in Mumbai. 
-  
-  
-<hr>
+<br>
 
-
-For even more info:
-------
-Reach out to me :)
-<hr>
-
-<h3><center> "Success is not final, failure is not fatal, It's the courage  to continue that counts" </center></h3>
+<h3 style="text-align: center; margin-top: 2em; padding: 1em; border-radius: 8px; background: rgba(102, 252, 241, 0.05); color: #66FCF1; border: 1px solid rgba(102, 252, 241, 0.2);"> 
+"Success is not final, failure is not fatal, It's the courage to continue that counts" 
+</h3>
