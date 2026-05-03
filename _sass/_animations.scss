@@ -19,3 +19,26 @@
     opacity: 1;
   }
 }
+
+@keyframes slideUpFade {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 10px rgba(102, 252, 241, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(102, 252, 241, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(102, 252, 241, 0.2);
+  }
+}
