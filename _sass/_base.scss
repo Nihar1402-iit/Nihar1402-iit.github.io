@@ -19,6 +19,11 @@ body {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
+
+  @media (prefers-color-scheme: dark) {
+    background: $background-color;
+    color: $body-color;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
