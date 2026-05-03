@@ -40,9 +40,47 @@ My primary research and development focus lies at the intersection of **Deep Lea
 ---
 
 <div class="glass-card scroll-reveal" markdown="1">
+### 🔬 Interactive CV & Medical Imaging Showcase
+
+<div class="interactive-grid">
+  <div class="interactive-item">
+    <h4>1. Semantic Segmentation (MRI)</h4>
+    <p style="font-size: 0.8em; color: #a8adb2;">Drag the slider to reveal the AI-predicted tumor mask.</p>
+    <div class="mri-slider-container" id="mri-slider">
+      <img src="{{ site.baseurl }}/images/mri_brain_segmented.png" class="slider-img-background" alt="Segmented MRI">
+      <div class="slider-img-foreground" id="mri-foreground">
+        <img src="{{ site.baseurl }}/images/mri_brain_base.png" alt="Base MRI">
+      </div>
+      <div class="slider-handle" id="mri-handle">
+        <div class="slider-line"></div>
+        <div class="slider-button"><i class="fas fa-arrows-alt-h"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="interactive-item">
+    <h4>2. CNN Convolutional Filter</h4>
+    <p style="font-size: 0.8em; color: #a8adb2;">Hover over the image to simulate a sliding window feature extraction.</p>
+    <div class="cnn-container" id="cnn-demo">
+      <img src="{{ site.baseurl }}/images/Profile_portfolio.jpg" alt="CNN Target" class="cnn-base-img">
+      <div class="cnn-lens" id="cnn-lens">
+        <div class="cnn-grid">
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+---
+
+<div class="glass-card scroll-reveal" markdown="1">
 ### 🌟 Core Competencies
-- **Deep Learning in Medical Imaging:** Developing robust architectures for disease detection, segmentation, and anomaly detection in clinical datasets.
-- **Computer Vision:** Image processing, object detection, and visual representation learning.
+- **Deep Learning in <span class="semantic-highlight med">Medical Imaging</span>:** Developing robust architectures for disease detection, <span class="semantic-highlight seg">segmentation</span>, and anomaly detection in clinical datasets.
+- **Computer Vision:** Image processing, <span class="semantic-highlight obj">object detection</span>, and visual representation learning.
 - **Machine Learning:** Predictive modeling, data science, and end-to-end ML pipeline optimization.
 </div>
 
