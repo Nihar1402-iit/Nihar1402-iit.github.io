@@ -305,12 +305,23 @@
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
-    color: inherit;
+    color: #C5C6C7; /* Ensure text is light gray */
     font-size: $type-size-5;
     text-decoration: none;
+    transition: all 0.2s ease-in-out;
+
+    i {
+      color: #66FCF1; /* Make icons bright cyan to match theme */
+      transition: all 0.2s ease-in-out;
+    }
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
+      color: #fff;
+      
+      i {
+        text-shadow: 0 0 8px rgba(102, 252, 241, 0.8);
+      }
     }
   }
 }
