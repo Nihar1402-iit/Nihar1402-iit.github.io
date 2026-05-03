@@ -13,11 +13,10 @@ redirect_from:
 ### 🚀 Computer Vision | 🧠 Machine Learning | 🩺 Deep Learning in Medical Imaging
 </div>
 
-<div class="scroll-reveal" markdown="1">
-Welcome to my portfolio! I am currently a final-year student at the **Indian Institute of Technology Gandhinagar**, majoring in Electrical Engineering with a minor in Computer Science and Engineering. 
+<div class="scroll-reveal">
+<p>Welcome to my portfolio! I am currently a final-year student at the <strong>Indian Institute of Technology Gandhinagar</strong>, majoring in Electrical Engineering with a minor in Computer Science and Engineering.</p>
 
-
-My primary research and development focus lies at the intersection of **Deep Learning** and **Medical Imaging**. I am passionate about leveraging advanced **Computer Vision** and **Machine Learning** techniques to solve complex, real-world healthcare challenges and build next-generation intelligent systems.
+<p>My primary research and development focus lies at the intersection of <strong>Deep Learning</strong> and <strong>Medical Imaging</strong>. I am passionate about leveraging advanced <strong>Computer Vision</strong> and <strong>Machine Learning</strong> techniques to solve complex, real-world healthcare challenges and build next-generation intelligent systems.</p>
 
 <div class="terminal-container">
   <div class="terminal-header">
@@ -39,17 +38,17 @@ My primary research and development focus lies at the intersection of **Deep Lea
 
 ---
 
-<div class="glass-card scroll-reveal" markdown="1">
-### 🔬 Interactive CV & Medical Imaging Showcase
+<div class="glass-card scroll-reveal">
+<h3 style="margin-top: 0;">🔬 Interactive CV & Medical Imaging Showcase</h3>
 
 <div class="interactive-grid">
   <div class="interactive-item">
     <h4>1. Semantic Segmentation (MRI)</h4>
     <p style="font-size: 0.8em; color: #a8adb2;">Drag the slider to reveal the AI-predicted tumor mask.</p>
     <div class="mri-slider-container" id="mri-slider">
-      <img src="{{ site.baseurl }}/images/mri_brain_segmented.png" class="slider-img-background" alt="Segmented MRI">
+      <img src="/images/mri_brain_segmented.png" class="slider-img-background" alt="Segmented MRI">
       <div class="slider-img-foreground" id="mri-foreground">
-        <img src="{{ site.baseurl }}/images/mri_brain_base.png" alt="Base MRI">
+        <img src="/images/mri_brain_base.png" alt="Base MRI">
       </div>
       <div class="slider-handle" id="mri-handle">
         <div class="slider-line"></div>
@@ -62,7 +61,7 @@ My primary research and development focus lies at the intersection of **Deep Lea
     <h4>2. CNN Convolutional Filter</h4>
     <p style="font-size: 0.8em; color: #a8adb2;">Hover over the image to simulate a sliding window feature extraction.</p>
     <div class="cnn-container" id="cnn-demo">
-      <img src="{{ site.baseurl }}/images/Profile_portfolio.jpg" alt="CNN Target" class="cnn-base-img">
+      <img src="/images/Profile_portfolio.jpg" alt="CNN Target" class="cnn-base-img">
       <div class="cnn-lens" id="cnn-lens">
         <div class="cnn-grid">
           <span></span><span></span><span></span>
