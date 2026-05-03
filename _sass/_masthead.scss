@@ -4,8 +4,10 @@
 
 .masthead {
   position: fixed;
-  background: white;
-  border-bottom: 1px solid $border-color;
+  background: rgba(11, 12, 16, 0.9);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(102, 252, 241, 0.1);
   height: $masthead-height;
   top: 0;
   width: 100%;

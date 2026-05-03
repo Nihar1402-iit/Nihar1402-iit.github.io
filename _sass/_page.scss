@@ -486,3 +486,60 @@
 .scroll-reveal:nth-child(4) { animation-delay: 0.4s; }
 .scroll-reveal:nth-child(5) { animation-delay: 0.5s; }
 
+.terminal-container {
+  background: #0B0C10;
+  border-radius: 8px;
+  border: 1px solid rgba(102, 252, 241, 0.2);
+  margin: 2em 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.terminal-header {
+  background: #1F2833;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(102, 252, 241, 0.1);
+
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+
+    &.red { background: #ff5f56; }
+    &.yellow { background: #ffbd2e; }
+    &.green { background: #27c93f; }
+  }
+
+  .terminal-title {
+    margin-left: auto;
+    margin-right: auto;
+    color: #a8adb2;
+    font-size: 0.85em;
+  }
+}
+
+.terminal-body {
+  padding: 15px;
+  color: #C5C6C7;
+  font-size: 0.9em;
+
+  p {
+    margin: 0 0 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+  }
+
+  .typewriter {
+    &.line-1 { animation: typeLine 1s steps(40, end) forwards; animation-delay: 0.5s; }
+    &.line-2 { animation: typeLine 1.5s steps(40, end) forwards; animation-delay: 1.5s; }
+    &.line-3 { animation: typeLine 1s steps(40, end) forwards; animation-delay: 3s; }
+    &.line-4 { animation: typeLine 1s steps(40, end) forwards; animation-delay: 4s; }
+    &.line-5 { animation: typeLine 1s steps(40, end) forwards; animation-delay: 5s; color: #66FCF1; font-weight: bold; }
+  }
+}
+

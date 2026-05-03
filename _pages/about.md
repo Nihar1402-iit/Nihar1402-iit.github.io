@@ -19,6 +19,22 @@ Welcome to my portfolio! I am currently a final-year student at the **Indian Ins
 
 My primary research and development focus lies at the intersection of **Deep Learning** and **Medical Imaging**. I am passionate about leveraging advanced **Computer Vision** and **Machine Learning** techniques to solve complex, real-world healthcare challenges and build next-generation intelligent systems.
 
+<div class="terminal-container">
+  <div class="terminal-header">
+    <span class="dot red"></span>
+    <span class="dot yellow"></span>
+    <span class="dot green"></span>
+    <span class="terminal-title">~/train_model.py</span>
+  </div>
+  <div class="terminal-body">
+    <p class="typewriter line-1">Importing torch, torchvision...</p>
+    <p class="typewriter line-2">Initializing ResNet-50 for Medical Imaging...</p>
+    <p class="typewriter line-3">Epoch [1/50] Loss: 0.8423 | Acc: 76.5%</p>
+    <p class="typewriter line-4">Epoch [25/50] Loss: 0.1245 | Acc: 94.2%</p>
+    <p class="typewriter line-5">Epoch [50/50] Loss: 0.0102 | Acc: 99.8% -> Model Saved!</p>
+  </div>
+</div>
+
 </div>
 
 ---

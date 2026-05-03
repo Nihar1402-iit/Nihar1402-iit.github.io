@@ -80,11 +80,11 @@
   display: table-cell;
   vertical-align: top;
   width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
+  position: relative;
+  overflow: hidden;
 
   @include breakpoint($large) {
-    display: block;
+    display: inline-block;
     width: auto;
     height: auto;
   }
@@ -92,10 +92,66 @@
   img {
     max-width: 175px;
     border-radius: 50%;
+    position: relative;
+    z-index: 1;
 
     @include breakpoint($large) {
       padding: 5px;
       border: 1px solid $border-color;
+    }
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border: 2px solid transparent;
+    pointer-events: none;
+    z-index: 2;
+    transition: all 0.3s ease;
+    border-radius: 50%; /* Match the avatar shape */
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -100%; left: 0; right: 0; height: 10px;
+    background: linear-gradient(to bottom, rgba(102,252,241,0), rgba(102,252,241,0.8));
+    pointer-events: none;
+    z-index: 3;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .cv-label {
+    position: absolute;
+    bottom: 20px; left: 50%;
+    transform: translateX(-50%);
+    background: rgba(11, 12, 16, 0.9);
+    color: #66FCF1;
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border: 1px solid #66FCF1;
+    border-radius: 4px;
+    opacity: 0;
+    z-index: 4;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover {
+    &::before {
+      animation: bbox 0.5s forwards;
+    }
+    &::after {
+      opacity: 1;
+      animation: scanline 2s infinite linear;
+    }
+    .cv-label {
+      opacity: 1;
+      animation: typeLabel 0.5s forwards;
     }
   }
 }
