@@ -43,31 +43,32 @@ redirect_from:
 
 <div class="interactive-grid">
   <div class="interactive-item">
-    <h4>1. Semantic Segmentation (MRI)</h4>
-    <p style="font-size: 0.8em; color: #a8adb2;">Drag the slider to reveal the AI-predicted tumor mask.</p>
-    <div class="mri-slider-container" id="mri-slider">
-      <img src="/images/mri_brain_segmented.png" class="slider-img-background" alt="Segmented MRI">
-      <div class="slider-img-foreground" id="mri-foreground">
-        <img src="/images/mri_brain_base.png" alt="Base MRI">
+    <h4>1. Automated Semantic Scanner (MRI)</h4>
+    <p style="font-size: 0.8em; color: #a8adb2;">A continuous simulated sweep revealing an AI-predicted tumor mask.</p>
+    <div class="mri-scanner-container">
+      <img src="/images/mri_brain_base.png" class="mri-base" alt="Base MRI">
+      <div class="mri-scan-mask">
+        <img src="/images/mri_brain_segmented.png" class="mri-segmented" alt="Segmented MRI">
       </div>
-      <div class="slider-handle" id="mri-handle">
-        <div class="slider-line"></div>
-        <div class="slider-button"><i class="fas fa-arrows-alt-h"></i></div>
-      </div>
+      <div class="mri-laser-line"></div>
     </div>
   </div>
 
   <div class="interactive-item">
-    <h4>2. CNN Convolutional Filter</h4>
-    <p style="font-size: 0.8em; color: #a8adb2;">Hover over the image to simulate a sliding window feature extraction.</p>
-    <div class="cnn-container" id="cnn-demo">
-      <img src="/images/Profile_portfolio.jpg" alt="CNN Target" class="cnn-base-img">
-      <div class="cnn-lens" id="cnn-lens">
-        <div class="cnn-grid">
-          <span></span><span></span><span></span>
-          <span></span><span></span><span></span>
-          <span></span><span></span><span></span>
-        </div>
+    <h4>2. CNN Convolution Process</h4>
+    <p style="font-size: 0.8em; color: #a8adb2;">Automated simulation of a 3x3 kernel generating a 2x2 feature map.</p>
+    <div class="cnn-process-container">
+      <div class="cnn-input-grid">
+        <div class="cnn-kernel"></div>
+        <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+        <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+        <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+        <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+      </div>
+      <i class="fas fa-arrow-right cnn-arrow"></i>
+      <div class="cnn-output-grid">
+        <div class="cell out-1"></div><div class="cell out-2"></div>
+        <div class="cell out-3"></div><div class="cell out-4"></div>
       </div>
     </div>
   </div>

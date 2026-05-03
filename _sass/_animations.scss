@@ -62,3 +62,51 @@
   from { width: 0; opacity: 0; }
   to { width: 100%; opacity: 1; }
 }
+
+@keyframes autoScan {
+  0% { clip-path: polygon(0 0, 0% 0, 0% 100%, 0 100%); }
+  20% { clip-path: polygon(0 0, 0% 0, 0% 100%, 0 100%); }
+  80% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+  100% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+}
+
+@keyframes autoLaser {
+  0% { left: 0%; opacity: 0; }
+  20% { left: 0%; opacity: 1; }
+  80% { left: calc(100% - 2px); opacity: 1; }
+  100% { left: calc(100% - 2px); opacity: 0; }
+}
+
+@keyframes slideKernel {
+  0%, 10%   { transform: translate(0px, 0px); }
+  25%, 35%  { transform: translate(32px, 0px); }
+  50%, 60%  { transform: translate(0px, 32px); }
+  75%, 85%  { transform: translate(32px, 32px); }
+  100%      { transform: translate(0px, 0px); }
+}
+
+@keyframes flashCell1 {
+  0%, 9%    { background: #1F2833; box-shadow: none; }
+  10%, 24%  { background: #66FCF1; box-shadow: 0 0 10px #66FCF1; }
+  25%, 100% { background: #45A29E; box-shadow: none; }
+}
+@keyframes flashCell2 {
+  0%, 34%   { background: #1F2833; box-shadow: none; }
+  35%, 49%  { background: #66FCF1; box-shadow: 0 0 10px #66FCF1; }
+  50%, 100% { background: #45A29E; box-shadow: none; }
+}
+@keyframes flashCell3 {
+  0%, 59%   { background: #1F2833; box-shadow: none; }
+  60%, 74%  { background: #66FCF1; box-shadow: 0 0 10px #66FCF1; }
+  75%, 100% { background: #45A29E; box-shadow: none; }
+}
+@keyframes flashCell4 {
+  0%, 84%   { background: #1F2833; box-shadow: none; }
+  85%, 99%  { background: #66FCF1; box-shadow: 0 0 10px #66FCF1; }
+  100%      { background: #45A29E; box-shadow: none; }
+}
+
+@keyframes pulseArrow {
+  0% { opacity: 0.5; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1.1); text-shadow: 0 0 10px #66FCF1; }
+}

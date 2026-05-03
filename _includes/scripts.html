@@ -43,51 +43,6 @@
         detectRetina: true
       });
     }
-
-    // 1. Interactive Medical Slider
-    const sliderContainer = document.getElementById("mri-slider");
-    const foreground = document.getElementById("mri-foreground");
-    const handle = document.getElementById("mri-handle");
-    let isDragging = false;
-
-    if (sliderContainer) {
-      const updateSlider = (e) => {
-        if (!isDragging) return;
-        const rect = sliderContainer.getBoundingClientRect();
-        let x = e.clientX || (e.touches && e.touches[0].clientX);
-        if (!x) return;
-        let pos = Math.max(0, Math.min(x - rect.left, rect.width));
-        let percent = (pos / rect.width) * 100;
-        foreground.style.width = percent + "%";
-        handle.style.left = percent + "%";
-      };
-
-      sliderContainer.addEventListener("mousedown", () => isDragging = true);
-      sliderContainer.addEventListener("touchstart", () => isDragging = true, {passive: true});
-      window.addEventListener("mouseup", () => isDragging = false);
-      window.addEventListener("touchend", () => isDragging = false);
-      window.addEventListener("mousemove", updateSlider);
-      window.addEventListener("touchmove", updateSlider, {passive: true});
-    }
-
-    // 2. CNN Sliding Window
-    const cnnContainer = document.getElementById("cnn-demo");
-    const cnnLens = document.getElementById("cnn-lens");
-
-    if (cnnContainer && cnnLens) {
-      cnnContainer.addEventListener("mousemove", function(e) {
-        const rect = cnnContainer.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
-        
-        cnnLens.style.left = x + "px";
-        cnnLens.style.top = y + "px";
-        
-        // Match background position relative to the base image dimensions
-        const bgPosX = -(x - 45); // 45 is half lens width
-        const bgPosY = -(y - 45);
-        cnnLens.style.backgroundPosition = `${bgPosX}px ${bgPosY}px`;
-      });
     }
   });
 </script>

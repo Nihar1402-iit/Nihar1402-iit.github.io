@@ -572,17 +572,16 @@
   }
 }
 
-/* 1. Medical Segmentation Slider */
-.mri-slider-container {
+/* 1. Automated Medical Segmentation Scanner */
+.mri-scanner-container {
   position: relative;
   width: 100%;
   max-width: 400px;
   aspect-ratio: 1 / 1;
   margin: 0 auto;
-  overflow: hidden;
   border-radius: 8px;
-  cursor: ew-resize;
-  touch-action: none;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(102, 252, 241, 0.1);
 
   img {
     position: absolute;
@@ -590,105 +589,96 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    pointer-events: none;
   }
 
-  .slider-img-foreground {
+  .mri-base {
+    z-index: 1;
+  }
+
+  .mri-scan-mask {
     position: absolute;
     top: 0; left: 0;
-    width: 50%; /* Initial state */
+    width: 100%;
     height: 100%;
-    overflow: hidden;
+    z-index: 2;
+    clip-path: polygon(0 0, 0% 0, 0% 100%, 0 100%);
+    animation: autoScan 3s ease-in-out infinite alternate;
   }
 
-  .slider-handle {
+  .mri-laser-line {
     position: absolute;
-    top: 0; left: 50%;
-    width: 40px;
+    top: 0; left: 0;
+    width: 2px;
     height: 100%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 5;
-    pointer-events: none;
-
-    .slider-line {
-      width: 2px;
-      height: 100%;
-      background: #66FCF1;
-      box-shadow: 0 0 10px #66FCF1;
-    }
-
-    .slider-button {
-      position: absolute;
-      width: 30px;
-      height: 30px;
-      background: #0B0C10;
-      border: 2px solid #66FCF1;
-      border-radius: 50%;
-      color: #66FCF1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 0 0 15px rgba(102, 252, 241, 0.5);
-    }
+    background: #66FCF1;
+    box-shadow: 0 0 15px 2px #66FCF1;
+    z-index: 3;
+    animation: autoLaser 3s ease-in-out infinite alternate;
   }
 }
 
-/* 2. CNN Sliding Window */
-.cnn-container {
-  position: relative;
+/* 2. Automated CNN Process */
+.cnn-process-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
+  padding: 1em;
+  background: #0B0C10;
   border-radius: 8px;
-  overflow: hidden;
-  cursor: crosshair;
+  border: 1px solid rgba(102, 252, 241, 0.15);
+}
 
-  .cnn-base-img {
-    width: 100%;
-    display: block;
-  }
+.cnn-input-grid, .cnn-output-grid {
+  display: grid;
+  gap: 2px;
+  background: rgba(102, 252, 241, 0.2);
+  border: 1px solid #45A29E;
+  padding: 2px;
+}
 
-  .cnn-lens {
+.cnn-input-grid {
+  position: relative;
+  grid-template-columns: repeat(4, 30px);
+  grid-template-rows: repeat(4, 30px);
+
+  .cnn-kernel {
     position: absolute;
-    width: 90px;
-    height: 90px;
-    background-image: url('../images/Profile_portfolio.jpg');
-    background-size: 300px auto; /* Must match .cnn-base-img width */
-    background-repeat: no-repeat;
-    /* Edge detection filter simulation */
-    filter: invert(1) contrast(1.5) sepia(1) hue-rotate(180deg);
+    top: 2px; left: 2px;
+    width: calc(90px + 4px); /* 3 cells + gaps */
+    height: calc(90px + 4px);
     border: 2px solid #66FCF1;
-    box-shadow: 0 0 20px rgba(102, 252, 241, 0.8), inset 0 0 10px rgba(102, 252, 241, 0.5);
-    border-radius: 8px;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.2s;
-    z-index: 10;
-    
-    /* Center it initially */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    .cnn-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(3, 1fr);
-      width: 100%;
-      height: 100%;
-
-      span {
-        border: 1px solid rgba(102, 252, 241, 0.3);
-      }
-    }
+    box-shadow: 0 0 10px rgba(102, 252, 241, 0.8), inset 0 0 10px rgba(102, 252, 241, 0.5);
+    background: rgba(102, 252, 241, 0.1);
+    z-index: 2;
+    animation: slideKernel 4s infinite;
   }
+}
 
-  &:hover .cnn-lens {
-    opacity: 1;
-  }
+.cnn-output-grid {
+  grid-template-columns: repeat(2, 30px);
+  grid-template-rows: repeat(2, 30px);
+}
+
+.cnn-process-container .cell {
+  background: #1F2833;
+  width: 30px;
+  height: 30px;
+}
+
+/* Feature Map Outputs lighting up */
+.out-1 { animation: flashCell1 4s infinite; }
+.out-2 { animation: flashCell2 4s infinite; }
+.out-3 { animation: flashCell3 4s infinite; }
+.out-4 { animation: flashCell4 4s infinite; }
+
+.cnn-arrow {
+  color: #66FCF1;
+  font-size: 1.5rem;
+  animation: pulseArrow 1s infinite alternate;
 }
 
 /* Semantic Highlights on hover */
