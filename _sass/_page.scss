@@ -437,18 +437,44 @@
    ========================================================================== */
 
 .particles-container {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 300px;
-  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
   pointer-events: none;
 }
 
-.intro-banner {
+.domain-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-bottom: 2em;
   position: relative;
   z-index: 1;
+
+  .badge {
+    background: rgba(102, 252, 241, 0.1);
+    color: #66FCF1;
+    border: 1px solid rgba(102, 252, 241, 0.3);
+    padding: 0.5em 1em;
+    border-radius: 50px;
+    font-size: 0.9em;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(102, 252, 241, 0.1);
+    transition: all 0.3s ease;
+
+    i {
+      margin-right: 6px;
+    }
+
+    &:hover {
+      background: rgba(102, 252, 241, 0.2);
+      box-shadow: 0 0 20px rgba(102, 252, 241, 0.3);
+      transform: translateY(-2px);
+    }
+  }
 }
 
 .glass-card {
@@ -693,5 +719,21 @@
     &.obj { background-color: #27c93f; box-shadow: 0 0 10px #27c93f; } /* Object Det - Green */
     &.med { background-color: #66FCF1; box-shadow: 0 0 10px #66FCF1; } /* Med Img - Cyan */
   }
+}
+
+/* ==========================================================================
+   PAGE TRANSITIONS (SWUP)
+   ========================================================================== */
+
+/* CV Lens Wipe Transition */
+.transition-scan {
+  transition: clip-path 0.5s cubic-bezier(0.25, 1, 0.5, 1), filter 0.5s ease;
+  clip-path: circle(150% at 50% 50%);
+  filter: blur(0);
+}
+
+html.is-animating .transition-scan {
+  clip-path: circle(0% at 50% 50%);
+  filter: blur(10px);
 }
 

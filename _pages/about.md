@@ -9,8 +9,10 @@ redirect_from:
 
 <div id="tsparticles" class="particles-container"></div>
 
-<div class="intro-banner scroll-reveal" markdown="1">
-### 🚀 Computer Vision | 🧠 Machine Learning | 🩺 Deep Learning in Medical Imaging
+<div class="domain-badges scroll-reveal">
+  <span class="badge"><i class="fas fa-eye"></i> Computer Vision</span>
+  <span class="badge"><i class="fas fa-brain"></i> Machine Learning</span>
+  <span class="badge"><i class="fas fa-x-ray"></i> Medical Imaging</span>
 </div>
 
 <div class="scroll-reveal">
