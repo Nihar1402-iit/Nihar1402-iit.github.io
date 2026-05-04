@@ -311,7 +311,7 @@
     transition: all 0.2s ease-in-out;
 
     i {
-      color: #66FCF1; /* Make icons bright cyan to match theme */
+      color: #66FCF1 !important; /* Make icons bright cyan to match theme */
       transition: all 0.2s ease-in-out;
     }
 

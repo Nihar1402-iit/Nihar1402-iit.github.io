@@ -195,41 +195,20 @@ body:hover .visually-hidden button {
 /* social icons*/
 
 .social-icons {
-  .fa, .fas, .fab, .fa-solid {
-    color: #66FCF1;
+  .fa, .fas, .fab, .fa-solid, .ai {
+    color: #66FCF1 !important; /* Force visibility for all icons */
+    transition: all 0.2s ease-in-out;
   }
 
-  .fa-bluesky,
-  .fa-bluesky-square {
-    color: $bluesky-color;
-  }
+  /* Keep some brand colors but ensure they are bright */
+  .fa-bluesky, .fa-bluesky-square { color: #1184fe !important; }
+  .fa-linkedin, .fa-linkedin-square { color: #007bb6 !important; }
+  .fa-instagram { color: #e1306c !important; }
+  .fa-youtube { color: #ff0000 !important; }
 
-  .fa-behance,
-  .fa-behance-square {
-    color: $behance-color;
-  }
-
-  .fa-dribbble {
-    color: $dribbble-color;
-  }
-
-  .fa-facebook,
-  .fa-facebook-square {
-    color: $facebook-color;
-  }
-
-  .fa-flickr {
-    color: $flickr-color;
-  }
-
-  .fa-foursquare {
-    color: $foursquare-color;
-  }
-
-  .fa-github,
-  .fa-github-alt,
-  .fa-github-square {
-    color: $github-color;
+  /* Ensure Github is visible! */
+  .fa-github, .fa-github-alt, .fa-github-square {
+    color: #66FCF1 !important;
   }
 
   .fa-google-plus,
