@@ -8272,7 +8272,8 @@ Q2: Why did we resized the matrices for visualization?</p>
       if (document.documentElement.classList.contains('swup-enabled')) return;
       const swup = new window.Swup({
         containers: ['#swup'],
-        plugins: [new window.SwupHeadPlugin()]
+        plugins: [new window.SwupHeadPlugin()],
+        resolveUrl: (url) => url.replace(/([^:])\/\//g, '$1/')
       });
     } catch (e) { console.error(e); }
   }

@@ -1523,7 +1523,8 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a h
       if (document.documentElement.classList.contains('swup-enabled')) return;
       const swup = new window.Swup({
         containers: ['#swup'],
-        plugins: [new window.SwupHeadPlugin()]
+        plugins: [new window.SwupHeadPlugin()],
+        resolveUrl: (url) => url.replace(/([^:])\/\//g, '$1/')
       });
     } catch (e) { console.error(e); }
   }
