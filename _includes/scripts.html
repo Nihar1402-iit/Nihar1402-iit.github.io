@@ -1,4 +1,4 @@
-<script src="{{ base_path }}/assets/js/main.min.js"></script>
+<script src="/assets/js/main.min.js"></script>
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
@@ -10,7 +10,6 @@
 <script src="https://unpkg.com/@swup/head-plugin@2/dist/index.umd.js"></script>
 <script>
   function initCustomInteractions() {
-    console.log("Initializing custom interactions...");
     if (document.getElementById("tsparticles") && typeof tsParticles !== 'undefined') {
       tsParticles.load("tsparticles", {
         background: { color: { value: "transparent" } },
