@@ -12,7 +12,7 @@ title                    : "Nihar's Homepage"
 title_separator          : "-"
 name                     : &name "Nihar Shah"
 description              : &description "ML enthusiast"
-url                      : https://nihar1402-iit.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://nihar1402-iit.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Nihar1402-iit/Nihar1402-iit.github.io"
 
