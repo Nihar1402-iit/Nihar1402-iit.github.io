@@ -8104,12 +8104,11 @@ FFT is a fundamental tool in audio and music analysis, enabling applications suc
 <script>
   function initSwup() {
     try {
-      if (typeof window.Swup === 'undefined') return;
-      if (document.documentElement.classList.contains('swup-enabled')) return;
+      if (typeof window.Swup === 'undefined' || document.documentElement.classList.contains('swup-enabled')) return;
       const swup = new window.Swup({
         containers: ['#swup'],
         plugins: [new window.SwupHeadPlugin()],
-        resolveUrl: (url) => url.replace(/([^:])\/\//g, '$1/')
+        resolveUrl: (url) => url.replace(/\/+/g, '/').replace(/:\//g, '://')
       });
     } catch (e) { console.error(e); }
   }

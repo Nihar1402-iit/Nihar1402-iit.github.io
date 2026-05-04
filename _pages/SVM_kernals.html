@@ -1519,12 +1519,11 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a h
 <script>
   function initSwup() {
     try {
-      if (typeof window.Swup === 'undefined') return;
-      if (document.documentElement.classList.contains('swup-enabled')) return;
+      if (typeof window.Swup === 'undefined' || document.documentElement.classList.contains('swup-enabled')) return;
       const swup = new window.Swup({
         containers: ['#swup'],
         plugins: [new window.SwupHeadPlugin()],
-        resolveUrl: (url) => url.replace(/([^:])\/\//g, '$1/')
+        resolveUrl: (url) => url.replace(/\/+/g, '/').replace(/:\//g, '://')
       });
     } catch (e) { console.error(e); }
   }

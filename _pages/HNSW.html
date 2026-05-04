@@ -628,12 +628,11 @@ class="uri">https://www.pinecone.io/learn/series/faiss/hnsw/</a></p>
 <script>
   function initSwup() {
     try {
-      if (typeof window.Swup === 'undefined') return;
-      if (document.documentElement.classList.contains('swup-enabled')) return;
+      if (typeof window.Swup === 'undefined' || document.documentElement.classList.contains('swup-enabled')) return;
       const swup = new window.Swup({
         containers: ['#swup'],
         plugins: [new window.SwupHeadPlugin()],
-        resolveUrl: (url) => url.replace(/([^:])\/\//g, '$1/')
+        resolveUrl: (url) => url.replace(/\/+/g, '/').replace(/:\//g, '://')
       });
     } catch (e) { console.error(e); }
   }

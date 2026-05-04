@@ -50,31 +50,19 @@
   }
 
   function initSwup() {
-    console.log("Attempting to initialize Swup...");
     try {
-      if (typeof window.Swup === 'undefined') {
-        console.error("Swup class not found!");
-        initCustomInteractions();
-        return;
-      }
-      
-      if (document.documentElement.classList.contains('swup-enabled')) {
-        console.log("Swup already enabled.");
-        return;
-      }
+      if (typeof window.Swup === 'undefined' || document.documentElement.classList.contains('swup-enabled')) return;
 
       const swup = new window.Swup({
         containers: ['#swup'],
         plugins: [new window.SwupHeadPlugin()],
-        resolveUrl: (url) => url.replace(/([^:])\/\//g, '$1/'),
+        resolveUrl: (url) => url.replace(/\/+/g, '/').replace(/:\//g, '://'),
         ignoreVisit: (url, { el }) => el?.closest('[data-no-swup]')
       });
       
-      console.log("Swup instance created.");
       initCustomInteractions();
       
       swup.hooks.on('page:view', () => {
-        console.log("Swup page:view hook fired.");
         initCustomInteractions();
       });
     } catch (e) {
