@@ -7509,6 +7509,7 @@ a.anchor-link {
 </style>
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
+<main id="swup" class="transition-scan">
 <main>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7737,5 +7738,33 @@ a.anchor-link {
 </div>
 </div>
 </main>
+</main>
+
+<!-- Swup.js for Page Transitions injected -->
+<script src="https://unpkg.com/swup@4.6.1/dist/Swup.umd.js"></script>
+<script src="https://unpkg.com/@swup/head-plugin@2.0.7/dist/index.umd.js"></script>
+<style>
+  .transition-scan {
+    transition: clip-path 0.5s cubic-bezier(0.25, 1, 0.5, 1), filter 0.5s ease;
+    clip-path: circle(150% at 50% 50%);
+    filter: blur(0);
+  }
+  html.is-animating .transition-scan {
+    clip-path: circle(0% at 50% 50%);
+    filter: blur(10px);
+  }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    try {
+      if (!window.Swup) return;
+      const swup = new window.Swup({
+        containers: ['#swup'],
+        plugins: [new window.SwupHeadPlugin()]
+      });
+    } catch (e) { console.error(e); }
+  });
+</script>
+
 </body>
 </html>

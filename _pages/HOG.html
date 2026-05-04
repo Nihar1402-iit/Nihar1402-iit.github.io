@@ -247,6 +247,7 @@
   <![endif]-->
 </head>
 <body>
+<main id="swup" class="transition-scan">
 <section id="intuition-behind-histogram-of-oriented-gradients-hog"
 class="cell markdown" id="V6pw2qJsZdB1">
 <h1>Intuition Behind Histogram of Oriented Gradients (HOG)</h1>
@@ -688,5 +689,33 @@ categories.</li>
 recognizing faces or other objects in images.</li>
 </ul>
 </section>
+</main>
+
+<!-- Swup.js for Page Transitions injected -->
+<script src="https://unpkg.com/swup@4.6.1/dist/Swup.umd.js"></script>
+<script src="https://unpkg.com/@swup/head-plugin@2.0.7/dist/index.umd.js"></script>
+<style>
+  .transition-scan {
+    transition: clip-path 0.5s cubic-bezier(0.25, 1, 0.5, 1), filter 0.5s ease;
+    clip-path: circle(150% at 50% 50%);
+    filter: blur(0);
+  }
+  html.is-animating .transition-scan {
+    clip-path: circle(0% at 50% 50%);
+    filter: blur(10px);
+  }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    try {
+      if (!window.Swup) return;
+      const swup = new window.Swup({
+        containers: ['#swup'],
+        plugins: [new window.SwupHeadPlugin()]
+      });
+    } catch (e) { console.error(e); }
+  });
+</script>
+
 </body>
 </html>
