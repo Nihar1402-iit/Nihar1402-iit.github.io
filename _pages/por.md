@@ -9,6 +9,15 @@ redirect_from:
 
 {% include base_path %}
 -----
+## Student Guide, IIT Gandhinagar
+_2025 – Present_
+
+* **Mentored incoming students** on academics, campus life, hostels, and institute resources for a smooth transition.
+* **Assisted with course planning**, extracurriculars, and academic support services.
+* **Provided peer support**, addressed concerns, and built an inclusive student community.
+* **Encouraged students** to reach their potential and avoid common past mistakes.
+
+---
 
 ## Senior Executive, Events and Events Management, Amalthea’23
 _IIT Gandhinagar, Aug '23 - Oct '23_

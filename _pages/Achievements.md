@@ -8,9 +8,12 @@ redirect_from:
 ---
 
 {% include base_path %}
------
------
-
+Awards & Scholarships
+======
+* **Asha-Chandrakant-Navarkar Scholarship** of Rs. 1,00,000 for strong research caliber and future potential for Academic Year 2024–25.
+* **Institute Donor Scholarship** of Rs. 1,00,000 for strong research caliber and future potential for Academic Year 2025–26.
+* **1st Position in Computer Vision Challenge** at IIT Gandhinagar’s Annual Hackathon **HackRush 2026**.
+* Awarded the **Dean’s List award** in Semester II and **Academic Citation** in semester VI and VII for excellent academic performance and maintaining 9 or 9+ SPI in 5/7 semesters.
 
 University Performance:
 ======
