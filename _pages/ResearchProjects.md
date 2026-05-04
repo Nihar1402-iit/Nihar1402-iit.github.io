@@ -5,9 +5,9 @@ permalink: /research/
 author_profile: true
 ---
 
-<div class="intro-banner scroll-reveal">
-  <h3>🔬 Advancing Deep Learning & Medical Imaging</h3>
-  <p style="color: #a8adb2; margin-top: 0.5em;">A collection of my research endeavors in computer vision, quantization, and ultrasound microscopy.</p>
+<div class="intro-banner scroll-reveal" style="padding: 1rem 1.5rem; margin-bottom: 2rem;">
+  <h2 style="color: #66FCF1; margin: 0; font-size: 1.5rem;">🩺 CV, ML, and DL in Medical Imaging</h2>
+  <p style="color: #a8adb2; margin-top: 0.3rem; font-size: 0.95rem;">Researching the intersection of computer vision and clinical diagnostics.</p>
 </div>
 
 <!-- Precision-Aware Quantization -->
