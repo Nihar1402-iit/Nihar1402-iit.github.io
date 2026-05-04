@@ -6,7 +6,7 @@
 <!-- tsParticles -->
 <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
 <!-- Swup.js for Page Transitions -->
-<script src="https://unpkg.com/swup@4"></script>
+<script src="https://unpkg.com/swup@4.6.1/dist/Swup.umd.js"></script>
 <script>
   function initCustomInteractions() {
     if (document.getElementById("tsparticles") && typeof tsParticles !== 'undefined') {
@@ -48,10 +48,19 @@
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    const swup = new Swup();
-    initCustomInteractions();
-    
-    // Re-initialize particles on page view
-    swup.hooks.on('page:view', initCustomInteractions);
+    try {
+      const swup = new window.Swup({
+        containers: ['#swup'],
+        ignoreVisit: (url, { el }) => el?.closest('[data-no-swup]')
+      });
+      
+      initCustomInteractions();
+      
+      swup.hooks.on('page:view', initCustomInteractions);
+    } catch (e) {
+      console.error("Swup initialization failed: ", e);
+      // Fallback: still init custom interactions
+      initCustomInteractions();
+    }
   });
 </script>
