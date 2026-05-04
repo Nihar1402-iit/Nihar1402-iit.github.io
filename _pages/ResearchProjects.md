@@ -5,9 +5,10 @@ permalink: /research/
 author_profile: true
 ---
 
-<div class="intro-banner scroll-reveal" style="padding: 1rem 1.5rem; margin-bottom: 2rem;">
-  <h2 style="color: #66FCF1; margin: 0; font-size: 1.5rem;">🩺 CV, ML, and DL in Medical Imaging</h2>
-  <p style="color: #a8adb2; margin-top: 0.3rem; font-size: 0.95rem;">Researching the intersection of computer vision and clinical diagnostics.</p>
+<div class="domain-badges scroll-reveal" style="margin-bottom: 2rem;">
+  <span class="badge"><i class="fas fa-eye"></i> Computer Vision</span>
+  <span class="badge"><i class="fas fa-brain"></i> Machine Learning</span>
+  <span class="badge"><i class="fas fa-x-ray"></i> Medical Imaging</span>
 </div>
 
 <!-- Precision-Aware Quantization -->
