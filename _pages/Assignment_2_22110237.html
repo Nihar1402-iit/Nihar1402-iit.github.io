@@ -8211,7 +8211,7 @@ $$</p>
 <script src="https://unpkg.com/swup@4.6.1/dist/Swup.umd.js"></script>
 <script src="https://unpkg.com/@swup/head-plugin@2/dist/index.umd.js"></script>
 <style>
-  /* Medical Scan Transition (Computer Vision Concept) */
+  html { background-color: #0B0C10 !important; }
   .transition-scan {
     transition: clip-path 0.5s cubic-bezier(0.4, 0, 0.2, 1), filter 0.5s ease;
     clip-path: inset(0 0 0 0);
@@ -8248,7 +8248,8 @@ $$</p>
       const swup = new window.Swup({
         containers: ['#swup'],
         plugins: [new window.SwupHeadPlugin()],
-        resolveUrl: (url) => url.replace(/\/+/g, '/').replace(/:\//g, '://')
+        resolveUrl: (url) => url.replace(/\/+/g, '/').replace(/:\//g, '://'),
+        ignoreVisit: (url, { el }) => el?.closest('[data-no-swup]')
       });
     } catch (e) { console.error(e); }
   }
