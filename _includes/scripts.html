@@ -10,6 +10,7 @@
 <script src="https://unpkg.com/@swup/head-plugin@2/dist/index.umd.js"></script>
 <script>
   function initCustomInteractions() {
+    console.log("Initializing custom interactions...");
     if (document.getElementById("tsparticles") && typeof tsParticles !== 'undefined') {
       tsParticles.load("tsparticles", {
         background: { color: { value: "transparent" } },
@@ -48,21 +49,42 @@
     }
   }
 
-  document.addEventListener("DOMContentLoaded", function () {
+  function initSwup() {
+    console.log("Attempting to initialize Swup...");
     try {
+      if (typeof window.Swup === 'undefined') {
+        console.error("Swup class not found!");
+        initCustomInteractions();
+        return;
+      }
+      
+      if (document.documentElement.classList.contains('swup-enabled')) {
+        console.log("Swup already enabled.");
+        return;
+      }
+
       const swup = new window.Swup({
         containers: ['#swup'],
         plugins: [new window.SwupHeadPlugin()],
         ignoreVisit: (url, { el }) => el?.closest('[data-no-swup]')
       });
       
+      console.log("Swup instance created.");
       initCustomInteractions();
       
-      swup.hooks.on('page:view', initCustomInteractions);
+      swup.hooks.on('page:view', () => {
+        console.log("Swup page:view hook fired.");
+        initCustomInteractions();
+      });
     } catch (e) {
-      console.error("Swup initialization failed: ", e);
-      // Fallback: still init custom interactions
+      console.error("Swup initialization error: ", e);
       initCustomInteractions();
     }
-  });
+  }
+
+  if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    initSwup();
+  } else {
+    document.addEventListener("DOMContentLoaded", initSwup);
+  }
 </script>

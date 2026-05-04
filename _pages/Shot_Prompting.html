@@ -8211,15 +8211,21 @@ Reasoning:
   }
 </style>
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
+  function initSwup() {
     try {
-      if (!window.Swup) return;
+      if (typeof window.Swup === 'undefined') return;
+      if (document.documentElement.classList.contains('swup-enabled')) return;
       const swup = new window.Swup({
         containers: ['#swup'],
         plugins: [new window.SwupHeadPlugin()]
       });
     } catch (e) { console.error(e); }
-  });
+  }
+  if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    initSwup();
+  } else {
+    document.addEventListener("DOMContentLoaded", initSwup);
+  }
 </script>
 
 </body>
