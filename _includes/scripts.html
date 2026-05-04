@@ -66,6 +66,7 @@
       const swup = new window.Swup({
         containers: ['#swup'],
         plugins: [new window.SwupHeadPlugin()],
+        resolveUrl: (url) => url.replace(/([^:])\/\//g, '$1/'),
         ignoreVisit: (url, { el }) => el?.closest('[data-no-swup]')
       });
       
