@@ -113,6 +113,29 @@ redirect_from:
   margin-bottom: 0.25rem;
 }
 
+.hackathon-preview {
+  width: 100%;
+  height: 180px;
+  border-radius: 18px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  background: #0b0c10;
+  border: 1px solid rgba(102, 252, 241, 0.15);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
+}
+
+.hackathon-preview img,
+.hackathon-preview video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hackathon-preview--video {
+  background: linear-gradient(135deg, #111827, #0f172a);
+}
+
 .hackathon-meta {
   color: #45A29E;
   font-size: 0.95rem;
@@ -259,6 +282,9 @@ redirect_from:
   </article>
 
   <article class="glass-card scroll-reveal hackathon-card">
+    <div class="hackathon-preview">
+      <img src="{{ base_path }}/images/growve-demo-thumb.jpg" alt="Growve demo thumbnail">
+    </div>
     <div class="hackathon-header">
       <div class="hackathon-thumb hackathon-thumb--growve"><span>GV</span></div>
       <div class="hackathon-heading">
@@ -266,19 +292,23 @@ redirect_from:
         <h3>Growve</h3>
       </div>
     </div>
-    <div class="hackathon-meta">FinanceFlow AI project</div>
+    <div class="hackathon-meta">Private codebase • FinanceFlow AI / Growve demo</div>
     <ul>
-      <li>Competition build for Microsoft Imagine Cup under the Growve project.</li>
-      <li>Hosted in the local Growve repo and linked to the GitHub origin.</li>
+      <li>Private Microsoft Imagine Cup submission built as Growve / FinanceFlow AI.</li>
+      <li>Demo covers smart OCR, auto-categorization, duplicate detection, dashboard analytics, balance sheets, tax suggestions, and business consulting.</li>
+      <li>Includes a screen-recorded product walkthrough for review and presentation.</li>
     </ul>
     <div class="hackathon-links hackathon-links--codes">
-      <a class="hackathon-link hackathon-link--code" href="https://github.com/Microsoft-Imagine-Cup-26/Growve" target="_blank" rel="noreferrer">
-        <i class="fab fa-github"></i> Code
+      <span class="hackathon-link hackathon-link--code" style="cursor: default;">
+        <i class="fas fa-lock"></i> Private repo
+      </span>
+      <a class="hackathon-link hackathon-link--code" href="{{ base_path }}/images/growve-demo.mp4" target="_blank" rel="noreferrer">
+        <i class="fas fa-video"></i> Demo video
       </a>
     </div>
     <div class="hackathon-links">
-      <a class="hackathon-link hackathon-link--primary" href="https://github.com/Microsoft-Imagine-Cup-26/Growve" target="_blank" rel="noreferrer">
-        <i class="fab fa-github"></i> View Repo
+      <a class="hackathon-link hackathon-link--primary" href="{{ base_path }}/images/growve-demo.mp4" target="_blank" rel="noreferrer">
+        <i class="fas fa-play"></i> Watch Demo
       </a>
     </div>
   </article>
