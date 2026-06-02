@@ -245,6 +245,9 @@ redirect_from:
   </article>
 
   <article class="glass-card scroll-reveal hackathon-card">
+    <div class="hackathon-preview">
+      <img src="{{ base_path }}/images/deepmind-cover.svg" alt="Sketch2Site cover">
+    </div>
     <div class="hackathon-header">
       <div class="hackathon-thumb hackathon-thumb--deepmind"><span>DM</span></div>
       <div class="hackathon-heading">
@@ -289,6 +292,9 @@ redirect_from:
   </article>
 
   <article class="glass-card scroll-reveal hackathon-card">
+    <div class="hackathon-preview">
+      <img src="{{ base_path }}/images/openenv-cover.svg" alt="OpenEnv cover">
+    </div>
     <div class="hackathon-header">
       <div class="hackathon-thumb hackathon-thumb--openenv"><span>OE</span></div>
       <div class="hackathon-heading">
@@ -309,6 +315,9 @@ redirect_from:
   </article>
 
   <article class="glass-card scroll-reveal hackathon-card">
+    <div class="hackathon-preview">
+      <img src="{{ base_path }}/images/amazon-cover.svg" alt="Amazon ML Challenge cover">
+    </div>
     <div class="hackathon-header">
       <div class="hackathon-thumb hackathon-thumb--amazon"><span>AM</span></div>
       <div class="hackathon-heading">
