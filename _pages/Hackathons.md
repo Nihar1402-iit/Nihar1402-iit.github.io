@@ -236,22 +236,11 @@ redirect_from:
     <div class="hackathon-meta">IIT Gandhinagar • Winner</div>
     <ul>
       <li>Submission for the IITGN Computer Vision problem statement.</li>
-      <li>Includes both solution repos used during the hackathon workflow.</li>
+      <li>Primary code is in <code>Hackrush_2026</code>, with the alternate solution in <code>Hackathon_2026_Sol2</code>.</li>
     </ul>
     <div class="hackathon-links hackathon-links--codes">
       <a class="hackathon-link hackathon-link--code" href="https://github.com/Nihar1402-iit/Hackrush_2026" target="_blank" rel="noreferrer">
-        <i class="fab fa-github"></i> Code 1
-      </a>
-      <a class="hackathon-link hackathon-link--code" href="https://github.com/Nihar1402-iit/Hackathon_2026_Sol2" target="_blank" rel="noreferrer">
-        <i class="fab fa-github"></i> Code 2
-      </a>
-    </div>
-    <div class="hackathon-links">
-      <a class="hackathon-link hackathon-link--primary" href="https://github.com/Nihar1402-iit/Hackrush_2026" target="_blank" rel="noreferrer">
-        <i class="fab fa-github"></i> Hackrush_2026
-      </a>
-      <a class="hackathon-link" href="https://github.com/Nihar1402-iit/Hackathon_2026_Sol2" target="_blank" rel="noreferrer">
-        <i class="fab fa-github"></i> Hackathon_2026_Sol2
+        <i class="fab fa-github"></i> View Code
       </a>
     </div>
   </article>
