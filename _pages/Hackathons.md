@@ -183,16 +183,12 @@ redirect_from:
   background: #9ffdf6;
 }
 
-.hackathon-links--codes {
-  margin-top: 1rem;
-}
-
-.hackathon-link--code {
+.hackathon-link--action {
   background: rgba(11, 12, 16, 0.18);
   color: #cdeff0;
 }
 
-.hackathon-link--code:hover {
+.hackathon-link--action:hover {
   color: #0b0c10;
   background: #66FCF1;
 }
@@ -226,6 +222,9 @@ redirect_from:
 
 <div class="hackathon-grid">
   <article class="glass-card scroll-reveal hackathon-card">
+    <div class="hackathon-preview">
+      <img src="{{ base_path }}/images/hackrush-cover.svg" alt="HackRush 2026 cover">
+    </div>
     <div class="hackathon-header">
       <div class="hackathon-thumb hackathon-thumb--hackrush"><span>HR</span></div>
       <div class="hackathon-heading">
@@ -238,8 +237,8 @@ redirect_from:
       <li>Submission for the IITGN Computer Vision problem statement.</li>
       <li>Primary code is in <code>Hackrush_2026</code>, with the alternate solution in <code>Hackathon_2026_Sol2</code>.</li>
     </ul>
-    <div class="hackathon-links hackathon-links--codes">
-      <a class="hackathon-link hackathon-link--code" href="https://github.com/Nihar1402-iit/Hackrush_2026" target="_blank" rel="noreferrer">
+    <div class="hackathon-links">
+      <a class="hackathon-link hackathon-link--action" href="https://github.com/Nihar1402-iit/Hackrush_2026" target="_blank" rel="noreferrer">
         <i class="fab fa-github"></i> View Code
       </a>
     </div>
@@ -258,21 +257,16 @@ redirect_from:
       <li>Hackathon repo for the Sketch2Site challenge.</li>
       <li>Built to showcase the submission in a single, easy-to-review location.</li>
     </ul>
-    <div class="hackathon-links hackathon-links--codes">
-      <a class="hackathon-link hackathon-link--code" href="https://github.com/Nihar1402-iit/Google-DeepMind-Hackathon-Sketch2Site" target="_blank" rel="noreferrer">
-        <i class="fab fa-github"></i> Code
-      </a>
-    </div>
     <div class="hackathon-links">
-      <a class="hackathon-link hackathon-link--primary" href="https://github.com/Nihar1402-iit/Google-DeepMind-Hackathon-Sketch2Site" target="_blank" rel="noreferrer">
-        <i class="fab fa-github"></i> View Repo
+      <a class="hackathon-link hackathon-link--action" href="https://github.com/Nihar1402-iit/Google-DeepMind-Hackathon-Sketch2Site" target="_blank" rel="noreferrer">
+        <i class="fab fa-github"></i> View Code
       </a>
     </div>
   </article>
 
   <article class="glass-card scroll-reveal hackathon-card">
     <div class="hackathon-preview">
-      <img src="{{ base_path }}/images/growve-demo-thumb.jpg" alt="Growve demo thumbnail">
+      <img src="{{ base_path }}/images/growve-cover.svg" alt="Growve cover">
     </div>
     <div class="hackathon-header">
       <div class="hackathon-thumb hackathon-thumb--growve"><span>GV</span></div>
@@ -287,16 +281,8 @@ redirect_from:
       <li>Demo covers smart OCR, auto-categorization, duplicate detection, dashboard analytics, balance sheets, tax suggestions, and business consulting.</li>
       <li>Includes a screen-recorded product walkthrough for review and presentation.</li>
     </ul>
-    <div class="hackathon-links hackathon-links--codes">
-      <span class="hackathon-link hackathon-link--code" style="cursor: default;">
-        <i class="fas fa-lock"></i> Private repo
-      </span>
-      <a class="hackathon-link hackathon-link--code" href="{{ base_path }}/images/growve-demo.mp4" target="_blank" rel="noreferrer">
-        <i class="fas fa-video"></i> Demo video
-      </a>
-    </div>
     <div class="hackathon-links">
-      <a class="hackathon-link hackathon-link--primary" href="{{ base_path }}/images/growve-demo.mp4" target="_blank" rel="noreferrer">
+      <a class="hackathon-link hackathon-link--action" href="{{ base_path }}/images/growve-demo.mp4" target="_blank" rel="noreferrer">
         <i class="fas fa-play"></i> Watch Demo
       </a>
     </div>
@@ -315,14 +301,9 @@ redirect_from:
       <li>Submission repo for the Meta OpenEnv Hackathon.</li>
       <li>Captured here as part of the main hackathon portfolio.</li>
     </ul>
-    <div class="hackathon-links hackathon-links--codes">
-      <a class="hackathon-link hackathon-link--code" href="https://github.com/Nihar1402-iit/OpenEnv-Hackathon" target="_blank" rel="noreferrer">
-        <i class="fab fa-github"></i> Code
-      </a>
-    </div>
     <div class="hackathon-links">
-      <a class="hackathon-link hackathon-link--primary" href="https://github.com/Nihar1402-iit/OpenEnv-Hackathon" target="_blank" rel="noreferrer">
-        <i class="fab fa-github"></i> View Repo
+      <a class="hackathon-link hackathon-link--action" href="https://github.com/Nihar1402-iit/OpenEnv-Hackathon" target="_blank" rel="noreferrer">
+        <i class="fab fa-github"></i> View Code
       </a>
     </div>
   </article>
@@ -340,17 +321,9 @@ redirect_from:
       <li>Public write-up page for the Amazon ML challenge work.</li>
       <li>Kept as a standalone project page for quick sharing.</li>
     </ul>
-    <div class="hackathon-links hackathon-links--codes">
-      <a class="hackathon-link hackathon-link--code" href="https://github.com/Nihar1402-iit/Nihar1402-iit.github.io/blob/master/_pages/Shot_Prompting.ipynb" target="_blank" rel="noreferrer">
-        <i class="fas fa-code"></i> Notebook
-      </a>
-      <a class="hackathon-link hackathon-link--code" href="https://nihar1402-iit.github.io/_pages/Shot_Prompting.html" target="_blank" rel="noreferrer">
-        <i class="fas fa-file-alt"></i> Write-up
-      </a>
-    </div>
     <div class="hackathon-links">
-      <a class="hackathon-link hackathon-link--primary" href="https://nihar1402-iit.github.io/_pages/Shot_Prompting.html" target="_blank" rel="noreferrer">
-        <i class="fas fa-external-link-alt"></i> Open Page
+      <a class="hackathon-link hackathon-link--action" href="https://nihar1402-iit.github.io/_pages/Shot_Prompting.html" target="_blank" rel="noreferrer">
+        <i class="fas fa-external-link-alt"></i> Open Write-up
       </a>
     </div>
   </article>
