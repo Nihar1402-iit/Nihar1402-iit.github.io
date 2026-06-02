@@ -15,15 +15,15 @@ main:
   - title: "Projects"
     url: /projects/
 
+  - title: "Hackathons"
+    url: /hackathons/
+
   - title: "Research"
     url: /research/
         
   - title: "Blogs"
     url: /blogs/
    
-  # - title: "Hackathons"
-  #   url: /hackathon/
-    
   - title: "CV"
     url: /files/Nihar_Resume_External (3).pdf
     target: "_blank"
