@@ -246,7 +246,7 @@ redirect_from:
 
   <article class="glass-card scroll-reveal hackathon-card">
     <div class="hackathon-preview">
-      <img src="{{ base_path }}/images/sketch2site-cover.svg" alt="Sketch2Site pipeline cover">
+      <img src="{{ base_path }}/images/deepmind-cover.svg" alt="Sketch2Site cover">
     </div>
     <div class="hackathon-header">
       <div class="hackathon-thumb hackathon-thumb--deepmind"><span>DM</span></div>
