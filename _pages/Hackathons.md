@@ -261,8 +261,8 @@ redirect_from:
       <li>Implemented with Gemini API + Flask, with the flow visualized in the Kaggle write-up.</li>
     </ul>
     <div class="hackathon-links">
-      <a class="hackathon-link hackathon-link--action" href="https://github.com/Nihar1402-iit/Google-DeepMind-Hackathon-Sketch2Site" target="_blank" rel="noreferrer">
-        <i class="fab fa-github"></i> View Code
+      <a class="hackathon-link hackathon-link--action" href="https://youtu.be/2bToevN2Sjo?si=ZmuFlMovNE-49-wW" target="_blank" rel="noreferrer">
+        <i class="fas fa-play"></i> Watch Demo
       </a>
     </div>
   </article>
@@ -285,7 +285,7 @@ redirect_from:
       <li>Includes a screen-recorded product walkthrough for review and presentation.</li>
     </ul>
     <div class="hackathon-links">
-      <a class="hackathon-link hackathon-link--action" href="https://youtu.be/2bToevN2Sjo?si=ZmuFlMovNE-49-wW" target="_blank" rel="noreferrer">
+      <a class="hackathon-link hackathon-link--action" href="{{ base_path }}/images/growve-demo.mp4" target="_blank" rel="noreferrer">
         <i class="fas fa-play"></i> Watch Demo
       </a>
     </div>
