@@ -246,7 +246,7 @@ redirect_from:
 
   <article class="glass-card scroll-reveal hackathon-card">
     <div class="hackathon-preview">
-      <img src="{{ base_path }}/images/deepmind-cover.svg" alt="Sketch2Site cover">
+      <img src="{{ base_path }}/images/sketch2site-cover.svg" alt="Sketch2Site pipeline cover">
     </div>
     <div class="hackathon-header">
       <div class="hackathon-thumb hackathon-thumb--deepmind"><span>DM</span></div>
@@ -255,10 +255,10 @@ redirect_from:
         <h3>Sketch2Site</h3>
       </div>
     </div>
-    <div class="hackathon-meta">Repository submission</div>
+    <div class="hackathon-meta">Pipeline documented in the Kaggle write-up</div>
     <ul>
-      <li>Hackathon repo for the Sketch2Site challenge.</li>
-      <li>Built to showcase the submission in a single, easy-to-review location.</li>
+      <li>Sketch-to-site pipeline spanning image parsing, symbol detection, component detection, prompt creation, and HTML/CSS generation.</li>
+      <li>Implemented with Gemini API + Flask, with the flow visualized in the Kaggle write-up.</li>
     </ul>
     <div class="hackathon-links">
       <a class="hackathon-link hackathon-link--action" href="https://github.com/Nihar1402-iit/Google-DeepMind-Hackathon-Sketch2Site" target="_blank" rel="noreferrer">
@@ -285,7 +285,7 @@ redirect_from:
       <li>Includes a screen-recorded product walkthrough for review and presentation.</li>
     </ul>
     <div class="hackathon-links">
-      <a class="hackathon-link hackathon-link--action" href="{{ base_path }}/images/growve-demo.mp4" target="_blank" rel="noreferrer">
+      <a class="hackathon-link hackathon-link--action" href="https://youtu.be/2bToevN2Sjo?si=ZmuFlMovNE-49-wW" target="_blank" rel="noreferrer">
         <i class="fas fa-play"></i> Watch Demo
       </a>
     </div>
